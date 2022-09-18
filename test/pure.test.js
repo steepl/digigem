@@ -32,7 +32,7 @@ test('partiallyIncludesElOf 3', () => {
 
 test('get all tags', () => {
   expect(P.getAllTags(mockCategories)).toStrictEqual([
-    "generator", "grid", "layout", "visual tool", "animation", "educational", "beginner", "career", "ui", "ux", "illustration", "svg", "tips", "tricks",
+    "generator", "grid", "layout", "visual tool", "animation", "educational", "beginner"
   ])
 })
 

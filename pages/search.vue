@@ -4,9 +4,9 @@
       h1(v-if="showTitle") Search
     transition(name="fade-card")
       .cards(v-if="areCardsVisible && showCards")
-        template(v-if="resources.length")
-          template(v-for='resource in resources' )
-            Card(:resource='resource' :key='resource.title' :createCopyUrl="createCopyUrl" :isActive='activeCard === resource.cleanTitle')
+        template(v-if="items.length")
+          template(v-for='item in items')
+            Card(:resource='item' :key='item.title' :createCopyUrl="createCopyUrl" :isActive='activeCard === item.cleanTitle')
         p(v-else) No results
 </template>
 
@@ -19,7 +19,7 @@ export default {
   data() {
     return {
       activeCard: '',
-      resources: [],
+      items: [],
       searchInput: {},
       showTitle: false,
       showCards: false,
@@ -49,7 +49,7 @@ export default {
         updateSearch()
     },
     searchInput(searchInput) {
-      this.resources = this.$store.getters['data/findBySearchInputs'](searchInput.keywords, searchInput.tags)
+      this.items = this.$store.getters['data/findBySearchInputs'](searchInput.keywords, searchInput.tags)
     },
   },
   mounted() {
