@@ -2,10 +2,9 @@
   aside.nav
     .sidebar
       template(v-for='category in categories')
-        //- nuxt-link(:to='$i18n.path(category.slug)') {{ category.title }}
         nuxt-link(:to='category.slug') {{ category.title }}
       hr
-      nuxt-link(to='/legal-notice') Legal Notice
+      nuxt-link(to='/dummy') Dummy
 </template>
 
 <script>
@@ -43,13 +42,14 @@ export default {
   align-items: center;
 
   a {
+    transform: skew(-15deg) rotate(-5deg) translate(-5px, 0);
     padding: 0.5rem 1rem 0.5rem 1rem;
     font-weight: 600;
     transition-duration: 0.2s;
     transition-property: background-color,color;
     &:hover, &.nuxt-link-exact-active {
-      background-color: #08e5ff;
-      color: #000;
+      background-color: #FC6E00;
+      color: #fff;
       text-decoration: none;
     }
   }
@@ -61,22 +61,23 @@ export default {
     grid-template-columns: 1fr 1fr;
     width: min-content;
     border: 1px;
-    border-color: #08e5ff;
+    border-color: #FC6E00;
     border-style: solid;
     overflow: hidden;
     margin: 1rem auto;
   }
   .viewToggle {
     padding: .2rem.2rem;
-    color: #008190;
+    color: #409aff;
   }
   .active {
-    background-color: #08e5ff;
-    color: #232331;
+    background-color: #FC6E00;
+    color: #272927;
   }
   hr {
+        transform: skew(-15deg) rotate(-5deg) translate(-5px, 0);
     width: 80%;
-    border-color: #08e5ff;
+    border-color: #FC6E00;
   }
 }
 
@@ -84,6 +85,10 @@ export default {
   .sidebar {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+
+    a {
+      transform: none;
+    }
   }
 }
 </style>
