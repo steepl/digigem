@@ -3,14 +3,14 @@ module.exports = {
     test: {
       presets: [
         [
-          "@babel/env",
+          '@babel/env',
           {
             targets: {
-              node: 11
-            }
-          }
-        ]
-      ]
-    }
-  }
-};
+              node: 11,
+            },
+          },
+        ],
+      ],
+    },
+  },
+}
