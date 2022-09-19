@@ -1,14 +1,12 @@
 <template lang="pug">
-  .layout
-    Github
-    Logo
-    Search
-    Sidebar
-    nuxt.content
+.layout
+  Logo
+  Search
+  Sidebar
+  nuxt.content
 </template>
 
 <script>
-import Github from '../components/Github'
 import Logo from '../components/Logo'
 import Search from '../components/Search'
 import Sidebar from '../components/Sidebar'
@@ -16,7 +14,6 @@ import pkg from '../package'
 
 export default {
   components: {
-    Github,
     Logo,
     Search,
     Sidebar,
@@ -26,14 +23,14 @@ export default {
       meta: [
         { hid: 'og:title', property: 'og:title', content: pkg.name },
         { hid: 'og:description', property: 'og:description', content: pkg.description },
-        { hid: 'og:image', property: 'og:image', content: this.prodBaseUrl + 'apple-touch-icon.png' },
+        { hid: 'og:image', property: 'og:image', content: this.prodBaseUrl},
         { hid: 'og:url', property: 'og:url', content: this.prodBaseUrl },
       ],
     }
   },
   data() {
     return {
-      prodBaseUrl: 'https://webgems.io/',
+      prodBaseUrl: 'https://gem.digibende',
       showNotice: false,
     }
   },
@@ -42,15 +39,15 @@ export default {
 
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,900');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-  margin: 1rem;
-  background: #232331;
+  margin: 2rem;
+  background: #272927;
 }
 
 html {
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
@@ -63,12 +60,12 @@ html {
 }
 
 a {
-  color: #08e5ff;
+  color: #FC6E00;
   text-decoration: none;
   overflow-wrap: break-word;
 
   &:hover {
-    color: #008190;
+    color: #409aff;
   }
 }
 
@@ -93,7 +90,7 @@ h1 {
   grid-template-areas:
     'logo search'
     'sidebar content';
-  max-width: 1200px;
+  max-width: 80vw;
   margin: 0 auto;
 }
 
@@ -168,13 +165,13 @@ h1 {
 
 .highlighted {
   text-decoration: none;
-  background-color: #08e5ff;
+  background-color: #FC6E00;
   color: #212121;
   padding: 0 5px;
   border-radius: .1rem;
 
   &:hover {
-    background-color: #008190;
+    background-color: #409aff;
     color: white;
   }
 }
@@ -184,10 +181,10 @@ h1 {
   margin: 1rem;
   bottom: 0;
   left: 0;
-  background-color: #232331;
+  background-color: #272927;
   padding: 0 1rem;
   border-radius: .3rem;
-  box-shadow:inset 0px 0px 0px 2px #08e5ff;
+  box-shadow:inset 0px 0px 0px 2px #FC6E00;
   z-index: 999;
 
   p {
@@ -212,29 +209,30 @@ h1 {
 }
 
 
-// #232331 dark bg
-// #2D3748 ligher cards
-// #ff3e35 or #08e5ff links
+// #272927 dark bg
+// #2b2c2c ligher cards
+// #ff3e35 or #FC6E00 links
 </style>
 
 
 <style lang="scss">
 ::-webkit {
   &-scrollbar{
-    width: 5px;
-    height: 5px;
+    width: 8px;
+    height: 8px;
 
     &-thumb{
-      background: #08e5ff;
+      background: #FC6E00;
+      border-radius: 10px;
     }
 
     &-track{
-      background:#232331;
+      background:#272927;
     }
   }
   &-resizer,
   &-scrollbar-corner {
-    background: #232331;
+    background: #272927;
   }
 }
 

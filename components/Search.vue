@@ -56,11 +56,11 @@ export default {
 
 <style lang="scss">
 input {
-  font-family: "Poppins";
+  font-family: "Montserrat";
   padding: .5rem 1.5rem .5rem 1.5rem;
   border-radius: .3rem;
   border: none;
-  background: #2E2E40;
+  background: #353535;
   font-size: 14px;
   color: #fff;
 
