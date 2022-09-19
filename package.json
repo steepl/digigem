@@ -1,25 +1,23 @@
 {
   "name": "digigem",
   "version": "1.0.0",
-  "description": "Digigem is a place for devs and designers to find useful resources all at one place. It has server resources on HTML, CSS, Javascript, Design, Icons,Accessibility, PHP, Podcasts, Python, Ruby, Servers and more.",
-  "author": "forked from webgems, original author: lost.design",
-  "private": true,
+  "description": "Digigem is een resource base van Digibende Utrecht.",
+  "author": "Forked from webgems, Original Author: lost.design",
+  "private": false,
   "scripts": {
     "dev": "nuxt",
-    "dev-legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt",
+    "dev:legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-    "test": "jest"
+    "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
     "cross-env": "^5.2.0",
     "nuxt": "^2.15.8",
     "nuxt-clipboard2": "^0.2.1",
-    "ramda": "^0.26.1",
-    "vue-i18n": "^8.21.1"
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -28,21 +26,17 @@
     "autoprefixer": "^8.6.4",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
-    "babel-jest": "^24.9.0",
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.12.0",
     "eslint-loader": "^3.0.2",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^5.2.3",
-    "jest": "^24.9.0",
-    "jest-serializer-vue": "^2.0.2",
-    "node-sass": "^7.0.0",
+    "node-sass": "7.0.0",
     "nodemon": "^1.18.9",
     "prettier": "^1.18.2",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^10.1.1",
-    "tailwindcss": "^0.7.0",
-    "vue-jest": "^3.0.7"
+    "tailwindcss": "^0.7.0"
   }
 }
