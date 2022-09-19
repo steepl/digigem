@@ -2,6 +2,13 @@ import pkg from './package'
 import resources from './resources/'
 
 export default {
+
+  vue: {
+    config: {
+      devtools: true,
+    },
+  },
+
   /*
   ** Headers of the page
   */
@@ -9,7 +16,7 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
-    title: pkg.name,
+    title: 'Digigem — Resource Base',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,13 +26,9 @@ export default {
       { name: 'robots', content: 'index, follow' },
       { name: 'distribution', content: 'global'},
 
-      { name:'theme-color', content: '#ffffff' },
+      { name:'theme-color', content: '#da532c' },
       { name: 'msapplication-TileColor', content: '#da532c' },
-      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' },
       { rel:'manifest', href:'/site.webmanifest' },
-      { rel:'icon', type:'image/png', sizes:'16x16', href:'/favicon-16x16.png' },
-      { rel:'icon', type:'image/png', sizes:'32x32', href:'/favicon-32x32.png' },
-      { rel:'apple-touch-icon', sizes:'76x76', href:'/apple-touch-icon.png' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -58,11 +61,8 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#da532c' },
 
-  plugins: [
-    '~/plugins/i18n.js',
-  ],
   /*
   ** Nuxt.js modules
   */
