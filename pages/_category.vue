@@ -2,11 +2,12 @@
   div
     transition-group(name="fade-title" @after-enter="afterEnter")
       h1(v-if="showTitle" :key="category.title") {{ category.title }}
+      //- todo: generate buttons based on list
       button(v-if="showButton" :key="1" class="button" @click="filter('digiproved')") DigiProved 🤙
       button(v-if="showButton" :key="2" class="button" @click="filter('beginner')") Beginner
       button(v-if="showButton" :key="3" class="button" @click="filter('intermediate')") Intermediate
       button(v-if="showButton" :key="4" class="button" @click="filter('advanced')") Advanced
-      p(v-if="showDesc" :key="category.desc") {{ category.desc }}
+      p(v-if="showDesc && category.desc" :key="category.desc") {{ category.desc }}
     transition(name="fade-card")
       .cards(v-if="areCardsVisible && showCards")
         template(v-for='resource in category.resources' )
