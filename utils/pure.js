@@ -8,19 +8,15 @@ import * as R from 'ramda'
 //   resources: [Resource],
 // }
 
-// const Resource = {
-//   title: String,
-//   items: [Item]
-// }
-
-// const RawItem = {
+// const RawResource = {
 //   title: String,
 //   desc: String,
 //   url: String,
 //   tags: [String]
 // }
 
-// const Item = {
+// const Resource = {
+//   title: String,
 //   cleanTitle: String,
 //   desc: String,
 //   path: String,
@@ -33,7 +29,7 @@ import * as R from 'ramda'
 export const isNotEmpty = R.compose(R.not, R.isEmpty)
 
 // getAllResources :: [Category] -> [Resource]
-export const getAllResources = R.compose(R.flatten, R.pluck('items'), R.flatten, R.pluck('resources'))
+export const getAllResources = R.compose(R.flatten, R.pluck('resources'))
 
 // getAllTags :: [Category] -> [String]
 export const getAllTags = R.compose(
@@ -58,10 +54,10 @@ export const includesElOf = R.curry((list1, list2) => R.any(el => R.includes(el,
 
 // Similar to includesElOf, but partially included strings are also allowed
 // partiallyIncludesElOf :: [String] -> [String] -> Bool
-export const partiallyIncludesElOf = R.curry((list1, list2) =>
+export const partiallyIncludesElOf = R.curry((list1, list2) => 
   R.any(el2 =>
     R.any(R.includes(el2), list1),
-    list2)
+  list2)
 )
 
 // addCleanTitleAndPath :: RawResource -> Resource
@@ -75,10 +71,9 @@ const addCleanTitleAndPath = R.curry((slug, obj) => {
 })
 
 // transformToResources :: [RawResource] -> [Resource]
-export const transformToResources = (categories) => {
+export const transformToResources = categories => {
   const resourcesLens = R.lens(R.prop('resources'), R.assoc('resources'))
-  const itemsLens = R.lens(R.prop('items'), R.assoc('items'))
-  return R.map((category) => R.over(
-    resourcesLens, R.map(R.over(
-      itemsLens, R.map(addCleanTitleAndPath(category.slug)))), category), categories)
-};
+  return R.map(category => 
+    R.over(resourcesLens, R.map(addCleanTitleAndPath(category.slug)), category),
+  categories)
+}
