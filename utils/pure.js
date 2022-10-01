@@ -52,6 +52,10 @@ export const cleanStringAndRemoveSpaces = R.compose(R.replace(/ /g, ''), cleanSt
 // includesElOf :: [a] -> [a] -> Bool
 export const includesElOf = R.curry((list1, list2) => R.any(el => R.includes(el, list2), list1))
 
+// true if list2 has element that appears in list1 else false
+// includesElOf :: [a] -> [a] -> Bool
+export const includesElOfAll = R.curry((list1, list2) => R.all(el => R.includes(el, list2), list1))
+
 // Similar to includesElOf, but partially included strings are also allowed
 // partiallyIncludesElOf :: [String] -> [String] -> Bool
 export const partiallyIncludesElOf = R.curry((list1, list2) => 
