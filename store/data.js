@@ -4,6 +4,7 @@ import {
 	getAllResources,
 	getAllTags,
 	includesElOf,
+	includesElOfAll,
 	partiallyIncludesElOf,
 	tagsNotEmpty,
 	cleanString,
@@ -57,6 +58,19 @@ export const getters = {
 		const foundByTags = getters.findByTags(tags)
 		const uniqueResources = foundByTags.filter(x => !foundByKeywords.some(y => equalResources(x, y)))
 		return uniqueResources.concat(foundByKeywords)
+	},
+	findByCategoryTitleAndTags: (_, getters) => (title, tags) => {		
+		const cleaned = R.map(cleanString, tags)
+		
+		// includesDesiredTags :: Resource -> Bool
+		const includesDesiredTags = R.compose(includesElOfAll(cleaned), R.prop('tags'))
+		// findResourcesByTag :: [Resource] -> [Resource]
+		const findResourcesByTag = R.filter(includesDesiredTags)
+		// getDesiredResources :: [Category] -> [Resource]
+
+		const category = getters.findCategory(title)
+
+		return findResourcesByTag(category.resources)
 	},
 	sortByTitle: (_, getters) => title => {
 		const category = getters.findCategory(title)
