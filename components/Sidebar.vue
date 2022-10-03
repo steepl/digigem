@@ -4,7 +4,7 @@
       template(v-for='category in categories')
         nuxt-link(:to='category.slug') {{ category.title }}
       hr
-      nuxt-link(to='/dummy') Dummy
+      nuxt-link(to='/glossary') Glossary
 </template>
 
 <script>
