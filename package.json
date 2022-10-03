@@ -37,6 +37,7 @@
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^10.1.1",
-    "tailwindcss": "^0.7.0"
+    "tailwindcss": "^0.7.0",
+    "yarn-audit-fix": "^9.3.6"
   }
 }

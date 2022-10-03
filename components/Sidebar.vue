@@ -42,6 +42,7 @@ export default {
   align-items: center;
 
   a {
+    margin-bottom: 1rem;
     transform: skew(-15deg) rotate(-5deg) translate(-5px, 0);
     padding: 0.5rem 1rem 0.5rem 1rem;
     font-weight: 600;
