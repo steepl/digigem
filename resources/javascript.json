@@ -1,8 +1,32 @@
 {
   "title": "JavaScript",
   "slug": "/javascript",
-  "filterTags": ["DigiProved 🤙", "Beginner", "Intermediate", "Advanced", "Phaser 🚀"],
+  "filterTags": ["DigiProved 🤙", "Phaser 🚀", "Beginner", "Intermediate", "Advanced"],
   "resources": [
+    {
+      "title": "Scrimba",
+      "desc": "Scrimba is a fun and fast way of learning to code! Our interactive courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more.",
+      "url": "https://scrimba.com/",
+      "tags": ["beginner", "digiproved 🤙", "interactie", "tutorial"]
+    },
+    {
+      "title": "Bitburner",
+      "desc": "Bitburner is a programming-based incremental game. Write scripts in JavaScript to automate gameplay, learn skills, play minigames, solve puzzles, and more in this cyberpunk text-based incremental RPG.",
+      "url": "https://danielyxie.github.io/bitburner/",
+      "tags": ["beginner", "open source", "game", "digiproved 🤙", "interactive"]
+    },
+    {
+      "title": "Phaser",
+      "desc": "Desktop and Mobile HTML5 game framework. A fast, free and fun open source framework for Canvas and WebGL powered browser games.",
+      "url": "https://phaser.io/",
+      "tags": ["beginner", "open source", "game", "phaser 🚀", "documentation"]
+    },
+    {
+      "title": "Dev Launchers",
+      "desc": "We build world-changing software while preparing people to thrive in technical careers",
+      "url": "https://devlaunchers.com/",
+      "tags": ["beginner", "phaser 🚀", "open source", "projects", "game"]
+    },
     {
       "title": "WarriorJS",
       "desc": "An exciting game of programming and Artificial Intelligence",
@@ -34,24 +58,6 @@
       "tags": ["beginner", "intermediate", "tutorial", "explanations", "basics", "advanced"]
     },
     {
-      "title": "JS Tips",
-      "desc": "JS Tips is a collection of useful daily JavaScript tips that will allow you to improve your code writing.",
-      "url": "https://www.jstips.co",
-      "tags": ["react", "angularjs"]
-    },
-    {
-      "title": "YDKJS",
-      "desc": "This is a free series of books diving deep into the core mechanisms of the JavaScript language. The first edition of the series is now complete, and the first two chapters of the second edition have already been published.",
-      "url": "https://github.com/getify/You-Dont-Know-JS",
-      "tags": ["online", "comprehensive", "courses"]
-    },
-    {
-      "title": "Deep JavaScript",
-      "desc": "A high-end book by Dr. Axel Rauschmayer which answers some of the questions that experienced JS developers might still encounter through their career.",
-      "url": "https://exploringjs.com/deep-js/",
-      "tags": ["book", "basics", "advanced"]
-    },
-    {
       "title": "Eloquent Javascript 3rd Edition",
       "desc": "This is a book about javascript, programming, and the wonders of the digital. You can read it online or get a paperback copy of it.",
       "url": "http://eloquentjavascript.net",
@@ -79,13 +85,13 @@
       "title": "BundlePhobia",
       "desc": "Find the cost of adding a npm package to your bundle",
       "url": "https://bundlephobia.com/",
-      "tags": ["search", "visualize"]
+      "tags": ["intermediate", "search", "visualize"]
     },
     {
       "title": "The Net Ninja - Black-belt your web skills",
       "desc": "Free YouTube tutorials on modern JavaScript (beginner to advanced), Node.js, React, Vue.js, Firebase, MongoDB, Plus loads more...",
       "url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists",
-      "tags": ["video", "tutorial", "playlist"]
+      "tags": ["beginner", "video", "tutorial", "playlist"]
     },
     {
       "title": "Javascript Weekly",
