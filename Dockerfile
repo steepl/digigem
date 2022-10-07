@@ -16,7 +16,7 @@ RUN yarn
 
 # build necessary, even if no static files are needed,
 # since it builds the server as well
-RUN yarn build:legacy
+RUN yarn build-legacy
 
 # expose 5000 on container
 EXPOSE 5000
@@ -27,4 +27,4 @@ ENV NUXT_HOST=0.0.0.0
 ENV NUXT_PORT=5000
 
 # start the app
-CMD [ "yarn", "start:legacy" ]
+CMD [ "yarn", "start-legacy" ]

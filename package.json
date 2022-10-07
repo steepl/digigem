@@ -6,11 +6,11 @@
   "private": false,
   "scripts": {
     "dev": "nuxt",
-    "dev:legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt",
+    "dev-legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt",
     "build": "nuxt build",
-    "build:legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt build",
+    "build-legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt build",
     "start": "nuxt start",
-    "start:legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt start",
+    "start-legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
