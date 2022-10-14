@@ -67,8 +67,9 @@ export default {
     },
     async createCopyUrl(resource) {
       try {
+        var baseUrl = window.location.origin
         const { path, cleanTitle } = resource
-        await this.$copyText(`https://gem.digibende${path}`)
+        await this.$copyText(`${baseUrl}${path}`)
         this.setActiveCard(cleanTitle)
         this.$router.push(path)
       } catch (e) {

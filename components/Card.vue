@@ -84,7 +84,10 @@ export default {
     margin: .7rem 0 .7rem 0;
     line-height: 1.3;
     letter-spacing: .5px;
-    max-width: 15rem;
+    min-height: 10rem;
+    max-width: 18rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   a {
     color: #fff;

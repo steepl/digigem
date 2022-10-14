@@ -32,7 +32,6 @@ export default {
     height: 45px;
   }
   p {
-    font-style: italic;
     margin: 0 0 0 0.3rem;
     font-size: 24px;
     font-weight: 800;
