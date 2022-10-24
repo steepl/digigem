@@ -44,7 +44,7 @@ export default {
   a {
     margin-bottom: 1rem;
     transform: skew(-15deg) rotate(-5deg) translate(-5px, 0);
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     font-weight: 600;
     transition-duration: 0.2s;
     transition-property: background-color,color;
@@ -90,6 +90,8 @@ export default {
     a {
       transform: none;
     }
+
+    text-align: center;
   }
 }
 </style>

@@ -29,7 +29,7 @@
     },
     {
       "title": "Screeps",
-      "desc": "",
+      "desc": "A strategy sandbox MMO game with a persistent open world where you play by writing JavaScripts to control your units. They live within the game and operate autonomously even while you are offline!",
       "url": "https://screeps.com/",
       "tags": ["intermediate", "interactie", "game", "tutorial"]
     },
