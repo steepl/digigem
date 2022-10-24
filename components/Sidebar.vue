@@ -76,7 +76,8 @@ export default {
     color: #272927;
   }
   hr {
-        transform: skew(-15deg) rotate(-5deg) translate(-5px, 0);
+    margin-bottom: 1rem;
+    transform: skew(-15deg) rotate(-5deg) translate(-5px, 0);
     width: 80%;
     border-color: #FC6E00;
   }
