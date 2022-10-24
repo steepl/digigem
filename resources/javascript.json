@@ -1,8 +1,38 @@
 {
   "title": "JavaScript",
   "slug": "/javascript",
-  "filterTags": ["DigiProved 🤙", "Phaser 🚀", "Beginner", "Intermediate", "Advanced"],
+  "filterTags": ["DigiProved 🤙", "Phaser 🚀", "Tools 🪛", "Beginner", "Intermediate", "Advanced"],
   "resources": [
+    {
+      "title": "Programiz",
+      "desc": "Learn to code with our beginner-friendly tutorials and examples. Read tutorials and examples, write programs, run code and learn to code.",
+      "url": "https://www.programiz.com/javascript",
+      "tags": ["digiproved 🤙", "beginner", "tutorial"]
+    },
+    {
+      "title": "Codecademy",
+      "desc": "Learn the technical skills to get the job you want. Join over 50 million people choosing Codecademy to start a new career (or advance in their current one",
+      "url": "https://www.codecademy.com/",
+      "tags": ["beginner", "tutorial"]
+    },
+    {
+      "title": "Frontend Mentor",
+      "desc": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 466.177 developers building projects, reviewing code, and helping each other get better.",
+      "url": "https://www.frontendmentor.io/",
+      "tags": ["beginner", "tutorial"]
+    },
+    {
+      "title": "Node.js",
+      "desc": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+      "url": "https://nodejs.org/",
+      "tags": ["tools 🪛"]
+    },
+    {
+      "title": "Screeps",
+      "desc": "",
+      "url": "https://screeps.com/",
+      "tags": ["intermediate", "interactie", "game", "tutorial"]
+    },
     {
       "title": "Scrimba",
       "desc": "Scrimba is a fun and fast way of learning to code! Our interactive courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more.",
@@ -40,13 +70,7 @@
       "tags": ["course", "beginner", "intermediate", "free"]
     },
     {
-      "title": "JS the right way",
-      "desc": "This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.",
-      "url": "https://jstherightway.org",
-      "tags": ["intermediate", "introduction", "aggregator", "tools", "video", "audio"]
-    },
-    {
-      "title": "Learn vanilla js",
+      "title": "Learn Vanilla JS",
       "desc": "A vanilla JS roadmap, along with learning resources and project ideas to help you get started.",
       "url": "https://learnvanillajs.com/",
       "tags": ["projects", "resources", "ideas"]
@@ -58,16 +82,10 @@
       "tags": ["beginner", "intermediate", "tutorial", "explanations", "basics", "advanced"]
     },
     {
-      "title": "Eloquent Javascript 3rd Edition",
+      "title": "Eloquent Javascript",
       "desc": "This is a book about javascript, programming, and the wonders of the digital. You can read it online or get a paperback copy of it.",
       "url": "http://eloquentjavascript.net",
       "tags": ["beginner", "advanced", "node", "projects"]
-    },
-    {
-      "title": "Learn javascript fast",
-      "desc": "Welcome to learnjavascriptfast.com, a free online course designed to help you learn Javascript fast with hands-on project. Our aim is to equip you with enough knowledge to start coding your own Javascript pages immediately upon completion of this course.",
-      "url": "https://learnjavascriptfast.com/",
-      "tags": ["beginner", "hands-on", "resources", "project"]
     },
     {
       "title": "MDN Web Docs",
@@ -76,19 +94,19 @@
       "tags": ["digiproved 🤙", "beginner", "documentation", "references"]
     },
     {
-      "title": "You might not need jquery",
+      "title": "You Might Not Need jQuery",
       "desc": "jQuery and its cousins are great, and by all means use them if it makes it easier to develop your application. If you're developing a library on the other hand, please take a moment to consider if you actually need jQuery as a dependency.",
-      "url": "http://youmightnotneedjquery.com",
+      "url": "http://youmightnotneedjquery.com/",
       "tags": ["beginner", "vanilla", "alternatives", "examples", "code"]
     },
     {
       "title": "BundlePhobia",
-      "desc": "Find the cost of adding a npm package to your bundle",
+      "desc": "Bundlephobia helps you find the performance impact of npm packages. Find the size of any javascript package and its effect on your frontend bundle.",
       "url": "https://bundlephobia.com/",
-      "tags": ["intermediate", "search", "visualize"]
+      "tags": ["tools 🪛", "intermediate", "search", "visualize"]
     },
     {
-      "title": "The Net Ninja - Black-belt your web skills",
+      "title": "The Net Ninja",
       "desc": "Free YouTube tutorials on modern JavaScript (beginner to advanced), Node.js, React, Vue.js, Firebase, MongoDB, Plus loads more...",
       "url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists",
       "tags": ["beginner", "video", "tutorial", "playlist"]
@@ -106,28 +124,16 @@
       "tags": ["flashcards", "challenges", "fundamentals"]
     },
     {
-      "title": "Loupe",
-      "desc": "Loupe is a little visualisation to help you understand how JavaScript's call stack/event loop/callback queue interact with each other.",
-      "url": "http://latentflip.com/loupe/",
-      "tags": ["event", "queue", "visualizer"]
-    },
-    {
       "title": "Code to go",
       "desc": "Find up to date snippets for common JavaScript use cases",
       "url": "https://codetogo.io/",
       "tags": ["intermediate",  "examples", "snippets", "search", "use cases"]
     },
     {
-      "title": "Clean Code Javascript",
-      "desc": "Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript. This is not a style guide. It's a guide to producing readable, reusable, and refactorable software in JavaScript.",
-      "url": "https://github.com/ryanmcdermott/clean-code-javascript",
-      "tags": ["intermediate", "naming", "guidelines", "formatting", "solid"]
-    },
-    {
-      "title": "List of (Advanced) JavaScript Questions",
+      "title": "JavaScript Questions",
       "desc": "A curated list of JavaScript questions from basic to advanced to either refresh your knowledge or prepare for job interviews. Updated weekly with new questions and available in several languages.",
       "url": "https://github.com/lydiahallie/javascript-questions",
-      "tags": ["advanced", "email", "solutions", "detailed"]
+      "tags": ["advanced", "questions", "solutions", "detailed"]
     }
   ]
 }
