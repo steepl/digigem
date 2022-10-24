@@ -4,11 +4,11 @@
 // import frontend from './frontend'
 // import fullstack from './fullstack'
 // import general from './general'
-// import html from './html'
+import html from './html'
 import javascript from './javascript'
 // import php from './php'
 // import podcasts from './podcasts'
-// import python from './python'
+import python from './python'
 // import ruby from './ruby'
 // import server from './server'
 // import utility from './utility'
@@ -30,11 +30,11 @@ export default [
   // frontend,
   // fullstack,
   // general,
-  // html,
+  html,
   javascript,
   // php,
   // podcasts,
-  // python,
+  python,
   // ruby,
   // server,
   // utility,

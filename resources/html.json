@@ -1,12 +1,19 @@
 {
   "title": "HTML",
   "slug": "/html",
+  "filterTags": ["DigiProved 🤙", "Nederlands 🇳🇱", "Beginner", "Intermediate", "Advanced"],
   "resources": [
     {
-      "title": "HTML ELEMENTS",
-      "desc": "All the HTML elemens you can use. There is more than just a div :)",
+      "title": "HTML Elements",
+      "desc": "This page lists all the HTML elements, which are created using tags.",
       "url": "https://developer.mozilla.org/docs/Web/HTML/Element",
-      "tags": ["reference", "semantics", "metadata", "obsolete"]
+      "tags": ["reference"]
+    },
+    {
+      "title": "Code Café",
+      "desc": "Leer programmeren en maak leuke projecten.",
+      "url": "https://www.code-cafe.nl/",
+      "tags": ["nederlands 🇳🇱", "beginner", "digiproved 🤙"]
     },
     {
       "title": "Introduction to HTML",
@@ -15,28 +22,16 @@
       "tags": ["course", "elements", "structure"]
     },
     {
-      "title": "Awesome Canvas",
-      "desc": "A curated list of awesome Canvas examples, related articles and posts.",
-      "url": "https://github.com/raphamorim/awesome-canvas#readme",
-      "tags": ["html5", "examples", "libraries", "resources"]
-    },
-    {
-      "title": "HTML Spec",
-      "desc": "This specification defines a big part of the Web platform, in lots of detail.",
-      "url": "https://html.spec.whatwg.org/",
-      "tags": ["standards", "elements", "specification", "syntax"]
-    },
-    {
       "title": "Markup validator",
       "desc": "This tool is checking your markup if it complies with the specification and will show you possible errors.",
       "url": "https://validator.w3.org/nu/",
       "tags": ["html", "reports", "outline"]
     },
     {
-      "title": "Trends",
-      "desc": "Browse trending github repos written in your favorite language with this high performance progressive web application",
-      "url": "https://trends.now.sh/",
-      "tags": ["aggregator", "github", "search", "ratings"]
+      "title": "Scrimba",
+      "desc": "Scrimba is a fun and fast way of learning to code! Our interactive courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more.",
+      "url": "https://scrimba.com/",
+      "tags": ["beginner", "digiproved 🤙", "interactie", "tutorial"]
     }
   ]
 }
