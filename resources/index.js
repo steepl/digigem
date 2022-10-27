@@ -4,6 +4,7 @@
 // import frontend from './frontend'
 // import fullstack from './fullstack'
 // import general from './general'
+import cpp from './cpp'
 import html from './html'
 import javascript from './javascript'
 // import php from './php'
@@ -12,6 +13,7 @@ import python from './python'
 // import ruby from './ruby'
 // import server from './server'
 // import utility from './utility'
+import minecraft from './minecraft'
 // import icons from './icons'
 // import accessibility from './accessibility'
 // import rust from './rust'
@@ -29,6 +31,7 @@ export default [
   // design,
   // frontend,
   // fullstack,
+  cpp,
   // general,
   html,
   javascript,
@@ -37,6 +40,7 @@ export default [
   python,
   // ruby,
   // server,
+  minecraft,
   // utility,
   // icons,
   // accessibility,

@@ -1,0 +1,31 @@
+{
+    "title": "CPP",
+    "slug": "/cpp",
+    "filterTags": ["DigiProved 🤙", "Arduino", "Tools 🔨", "Beginner"],
+    "resources": [
+      {
+        "title": "mehackit",
+        "desc": "Teach and learn programming through Art, Music and Hardware.",
+        "url": "https://mehackit.org/en/courses/",
+        "tags": ["beginner"]
+      },
+      {
+        "title": "Programiz",
+        "desc": "C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on.",
+        "url": "https://www.programiz.com/cpp-programming",
+        "tags": ["beginner", "digiproved 🤙"]
+      },
+      {
+        "title": "Tinkercad",
+        "desc": "Tinkercad is a free web app for 3D design, electronics, and coding, trusted by over 50 million people around the world.",
+        "url": "https://www.tinkercad.com/",
+        "tags": ["beginner", "tools 🔨"]
+      },
+      {
+        "title": "Arduino Cloud",
+        "desc": "The Arduino IoT Cloud is a online platform that makes it easy for you to create, deploy and monitor IoT projects.",
+        "url": "https://cloud.arduino.cc/",
+        "tags": ["beginner", "digiproved 🤙"]
+      }
+    ]
+  }
