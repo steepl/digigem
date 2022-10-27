@@ -1,8 +1,14 @@
 {
   "title": "HTML",
   "slug": "/html",
-  "filterTags": ["DigiProved 🤙", "Nederlands 🇳🇱", "Beginner", "Intermediate", "Advanced"],
+  "filterTags": ["DigiProved 🤙", "Nederlands", "Beginner", "Intermediate", "Advanced"],
   "resources": [
+    {
+      "title": "Frontend Mentor",
+      "desc": "Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.  ",
+      "url": "https://www.frontendmentor.io/",
+      "tags": ["beginner", "intermediate", "advanced"]
+    },
     {
       "title": "HTML Elements",
       "desc": "This page lists all the HTML elements, which are created using tags.",
@@ -10,16 +16,28 @@
       "tags": ["reference"]
     },
     {
+      "title": "Learn X in Y Minutes: Scenic Programming Language Tours",
+      "desc": "Take a whirlwind tour of your next favorite language. Community-driven! Algorithms & Data Structures, Languages, ...",
+      "url": "https://learnxinyminutes.com/",
+      "tags": ["intermediate", "open source", "references", "cheat sheet"]
+    },
+    {
       "title": "Code Café",
       "desc": "Leer programmeren en maak leuke projecten.",
       "url": "https://www.code-cafe.nl/",
-      "tags": ["nederlands 🇳🇱", "beginner", "digiproved 🤙"]
+      "tags": ["nederlands", "beginner"]
     },
     {
-      "title": "Introduction to HTML",
+      "title": "mimo",
+      "desc": "Mimo is a platform that teaches programming, HTML, CSS, JavaScript, Swift, and more through gamified and interactive lessons on the go.",
+      "url": "https://getmimo.com/",
+      "tags": ["digiproved 🤙", "beginner", "course"]
+    },
+    {
+      "title": "Codecademy: Introduction to HTML",
       "desc": "In just 4 hours, learn the basics of HTML5 and start building & editing web pages.",
       "url": "https://www.codecademy.com/learn/learn-html",
-      "tags": ["course", "elements", "structure"]
+      "tags": ["digiproved 🤙", "beginner", "course", "elements", "structure"]
     },
     {
       "title": "Markup validator",

@@ -1,13 +1,19 @@
 {
   "title": "JavaScript",
   "slug": "/javascript",
-  "filterTags": ["DigiProved 🤙", "Phaser 🚀", "Tools 🪛", "Beginner", "Intermediate", "Advanced"],
+  "filterTags": ["DigiProved 🤙", "Phaser 🚀", "Tools 🔨", "Beginner", "Intermediate", "Advanced"],
   "resources": [
     {
       "title": "Programiz",
       "desc": "Learn to code with our beginner-friendly tutorials and examples. Read tutorials and examples, write programs, run code and learn to code.",
       "url": "https://www.programiz.com/javascript",
       "tags": ["digiproved 🤙", "beginner", "tutorial"]
+    },
+    {
+      "title": "Learn X in Y Minutes: Scenic Programming Language Tours",
+      "desc": "Take a whirlwind tour of your next favorite language. Community-driven! Algorithms & Data Structures, Languages, ...",
+      "url": "https://learnxinyminutes.com/",
+      "tags": ["intermediate", "open source", "references", "cheat sheet"]
     },
     {
       "title": "Codecademy",
@@ -19,19 +25,19 @@
       "title": "Frontend Mentor",
       "desc": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 466.177 developers building projects, reviewing code, and helping each other get better.",
       "url": "https://www.frontendmentor.io/",
-      "tags": ["beginner", "tutorial"]
+      "tags": ["beginner", "intermediate", "advanced"]
     },
     {
       "title": "Node.js",
       "desc": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
       "url": "https://nodejs.org/",
-      "tags": ["tools 🪛"]
+      "tags": ["tools 🔨"]
     },
     {
       "title": "Screeps",
       "desc": "A strategy sandbox MMO game with a persistent open world where you play by writing JavaScripts to control your units. They live within the game and operate autonomously even while you are offline!",
       "url": "https://screeps.com/",
-      "tags": ["intermediate", "interactie", "game", "tutorial"]
+      "tags": ["advanced", "intermediate", "interactie", "game", "tutorial"]
     },
     {
       "title": "Scrimba",
@@ -44,6 +50,12 @@
       "desc": "Bitburner is a programming-based incremental game. Write scripts in JavaScript to automate gameplay, learn skills, play minigames, solve puzzles, and more in this cyberpunk text-based incremental RPG.",
       "url": "https://danielyxie.github.io/bitburner/",
       "tags": ["beginner", "open source", "game", "digiproved 🤙", "interactive"]
+    },
+    {
+      "title": "Creating a fully automated game (Bitburner)",
+      "desc": "Bitburner is a programming game that allows you to write automation scripts that run whether or not you're in this game. In this series, I try to automate everything in the game.",
+      "url": "https://www.youtube.com/playlist?list=PLH0mcSPXlsBnef6x-GudnO3PDzq4hT5Dl",
+      "tags": ["beginner","intermediate", "interactive", "game", "playlist"]
     },
     {
       "title": "Phaser",
@@ -67,7 +79,7 @@
       "title": "Javascript30",
       "desc": "Free video courses about javascript. Made by WesBos",
       "url": "https://javascript30.com",
-      "tags": ["course", "beginner", "intermediate", "free"]
+      "tags": ["course", "beginner", "intermediate"]
     },
     {
       "title": "Learn Vanilla JS",
@@ -103,7 +115,7 @@
       "title": "BundlePhobia",
       "desc": "Bundlephobia helps you find the performance impact of npm packages. Find the size of any javascript package and its effect on your frontend bundle.",
       "url": "https://bundlephobia.com/",
-      "tags": ["tools 🪛", "intermediate", "search", "visualize"]
+      "tags": ["tools 🔨", "intermediate", "search", "visualize"]
     },
     {
       "title": "The Net Ninja",
