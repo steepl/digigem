@@ -1,11 +1,11 @@
 <template lang="pug">
-  .card(:class="{ cardActive: isActive }")
+  .card
     .card--meta
       img.card--favicon(:src="'https://www.google.com/s2/favicons?domain=' + resource.url" aria-hidden="true")
       a.card--title(:href="resource.url" :target='resource.title' rel='noreferrer') {{resource.title}}
     p.card--description {{resource.desc}}
     .card--links
-      a.card--reference(@click='createCopyUrl(resource)') Copy
+      a.card--reference(@click='createCopyUrl(resource)') Copy URL
       br
       a.card--target(:href="resource.url" :target='resource.title' rel='noreferrer') Open
 </template>
@@ -14,7 +14,6 @@
 export default {
   props: {
     resource: Object,
-    isActive: Boolean,
     createCopyUrl: Function,
   },
 }
@@ -30,10 +29,6 @@ export default {
   display: flex;
   flex-direction: column;
   position: relative;
-
-  &Active {
-    box-shadow:inset 0px 0px 0px 3px #FC6E00;
-  }
 
   &--meta {
     display: flex;

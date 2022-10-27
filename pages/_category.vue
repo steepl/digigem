@@ -67,11 +67,9 @@ export default {
     },
     async createCopyUrl(resource) {
       try {
-        var baseUrl = window.location.origin
-        const { path, cleanTitle } = resource
-        await this.$copyText(`${baseUrl}${path}`)
+        const { url, cleanTitle } = resource
+        await this.$copyText(url)
         this.setActiveCard(cleanTitle)
-        this.$router.push(path)
       } catch (e) {
         console.error(e)
       }

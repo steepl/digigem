@@ -65,8 +65,8 @@ export default {
   methods: {
     async createCopyUrl(resource) {
       try {
-        const { path } = resource
-        await this.$copyText(`https://webgems.io${path}`)
+        const { url } = resource
+        await this.$copyText(url)
       } catch (e) {
         console.error(e)
       }
