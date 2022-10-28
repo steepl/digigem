@@ -59,18 +59,18 @@ export const getters = {
 		const uniqueResources = foundByTags.filter(x => !foundByKeywords.some(y => equalResources(x, y)))
 		return uniqueResources.concat(foundByKeywords)
 	},
-	findByCategoryTitleAndTags: (_, getters) => (title, tags) => {		
+	sortByTitleAndTags: (_, getters) => (title, tags) => {		
 		const cleaned = R.map(cleanString, tags)
 		
 		// includesDesiredTags :: Resource -> Bool
 		const includesDesiredTags = R.compose(includesElOfAll(cleaned), R.prop('tags'))
 		// findResourcesByTag :: [Resource] -> [Resource]
 		const findResourcesByTag = R.filter(includesDesiredTags)
-		// getDesiredResources :: [Category] -> [Resource]
 
 		const category = getters.findCategory(title)
+		const clone = [...category.resources]
 
-		return findResourcesByTag(category.resources)
+		return findResourcesByTag(clone.sort(compareTitles))
 	},
 	sortByTitle: (_, getters) => title => {
 		const category = getters.findCategory(title)

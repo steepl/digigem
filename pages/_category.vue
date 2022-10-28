@@ -37,8 +37,8 @@ export default {
         return category
       }
       else {
-        // replace category resources with filtered resources based on active filter tags
-        category.resources = this.$store.getters['data/findByCategoryTitleAndTags'](this.categoryRouteTitle, this.currentFilterTags)
+        // replace category resources with resources based on active filter tags
+        category.resources = this.$store.getters['data/sortByTitleAndTags'](this.categoryRouteTitle, this.currentFilterTags)
         return category
       }
     },
