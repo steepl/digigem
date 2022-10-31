@@ -1,13 +1,13 @@
 {
-    "title": "CPP",
-    "slug": "/cpp",
-    "filterTags": ["DigiProved 🤙", "Arduino", "Tools 🔨", "Beginner"],
+    "title": "C++",
+    "slug": "/c++",
+    "filterTags": ["DigiProved 🤙", "Arduino 🔩", "Tools 🔨", "Beginner", "Intermediate"],
     "resources": [
       {
         "title": "mehackit",
         "desc": "Teach and learn programming through Art, Music and Hardware.",
         "url": "https://mehackit.org/en/courses/",
-        "tags": ["beginner"]
+        "tags": ["beginner", "arduino 🔩"]
       },
       {
         "title": "Programiz",
@@ -19,13 +19,13 @@
         "title": "Tinkercad",
         "desc": "Tinkercad is a free web app for 3D design, electronics, and coding, trusted by over 50 million people around the world.",
         "url": "https://www.tinkercad.com/",
-        "tags": ["beginner", "tools 🔨"]
+        "tags": ["intermediate", "tools 🔨", "arduino 🔩"]
       },
       {
         "title": "Arduino Cloud",
         "desc": "The Arduino IoT Cloud is a online platform that makes it easy for you to create, deploy and monitor IoT projects.",
         "url": "https://cloud.arduino.cc/",
-        "tags": ["beginner", "digiproved 🤙"]
+        "tags": ["beginner", "digiproved 🤙", "arduino 🔩"]
       }
     ]
   }

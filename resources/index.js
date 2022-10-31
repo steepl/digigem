@@ -1,18 +1,21 @@
+import blocks from './blocks'
 // import css from './css'
 // import daily from './daily'
 // import design from './design'
 // import frontend from './frontend'
 // import fullstack from './fullstack'
 // import general from './general'
-import cpp from './cpp'
+import cpp from './c++'
 import html from './html'
 import javascript from './javascript'
 // import php from './php'
 // import podcasts from './podcasts'
+import lua from './lua'
 import python from './python'
 // import ruby from './ruby'
 // import server from './server'
 // import utility from './utility'
+import microbit from './microbit'
 import minecraft from './minecraft'
 // import icons from './icons'
 // import accessibility from './accessibility'
@@ -28,8 +31,10 @@ const sortByTitle = ({ title: titleA }, { title: titleB }) => {
 export default [
   // css,
   // daily,
+  blocks,
   // design,
   // frontend,
+  lua,
   // fullstack,
   cpp,
   // general,
@@ -40,6 +45,7 @@ export default [
   python,
   // ruby,
   // server,
+  microbit,
   minecraft,
   // utility,
   // icons,

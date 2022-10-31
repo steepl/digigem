@@ -3,8 +3,8 @@
     .sidebar
       template(v-for='category in categories')
         nuxt-link(:to='category.slug') {{ category.title }}
-      hr
-      nuxt-link(to='/glossary') Glossary
+      //- hr
+      //- nuxt-link(to='/glossary') Glossary
 </template>
 
 <script>

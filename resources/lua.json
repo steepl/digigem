@@ -1,0 +1,13 @@
+{
+    "title": "Lua",
+    "slug": "/lua",
+    "filterTags": ["DigiProved 🤙", "Game Development 🎮", "Beginner", "Intermediate"],
+    "resources": [
+      {
+        "title": "LIKO-12",
+        "desc": "An open-source fantasy computer. Available on Windows, Linux, OS X and Android. Completely written in Lua, powered by LÖVE and open-sourced since the first day",
+        "url": "https://liko-12.github.io/legacy-2/#/",
+        "tags": ["beginner", "game development 🎮"]
+      }
+    ]
+  }
