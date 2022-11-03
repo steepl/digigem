@@ -1,7 +1,7 @@
 {
   "title": "Python",
   "slug": "/python",
-  "filterTags": ["DigiProved 🤙", "Data Science 🔬", "Tools 🔨", "Nederlands", "Beginner", "Intermediate"],
+  "filterTags": ["DigiProved 🤙", "Data Science 🔬", "Tools", "Nederlands", "Beginner", "Intermediate"],
   "resources": [
     {
       "title": "Code Café",
@@ -91,7 +91,7 @@
       "title": "Jupyter",
       "desc": "The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.",
       "url": "https://jupyter.org/",
-      "tags": ["documentation", "widgets", "collaboration", "interactive", "tools 🔨", "data science 🔬"  ]
+      "tags": ["documentation", "widgets", "collaboration", "interactive", "tools", "data science 🔬"  ]
     },
     {
       "title": "Matplotlib",

@@ -1,7 +1,7 @@
 {
   "title": "JavaScript",
   "slug": "/javascript",
-  "filterTags": ["DigiProved 🤙", "Phaser 🚀", "Tools 🔨", "Beginner", "Intermediate", "Advanced"],
+  "filterTags": ["DigiProved 🤙", "Phaser 🚀", "Discord 😎", "Tools", "Beginner", "Intermediate", "Advanced"],
   "resources": [
     {
       "title": "Programiz",
@@ -28,10 +28,22 @@
       "tags": ["beginner", "intermediate", "advanced"]
     },
     {
+      "title": "discord.js",
+      "desc": "Discord.js is a powerful node.js module that allows you to interact with the Discord API very easily.",
+      "url": "https://discord.js.org/#/",
+      "tags": ["intermediate", "discord 😎"]
+    },
+    {
+      "title": "discord.js (Guide)",
+      "desc": "Imagine a guide... that explores the many possibilities for your discord.js bot.",
+      "url": "https://discordjs.guide/#before-you-begin",
+      "tags": ["intermediate", "guide", "tools", "discord 😎"]
+    },
+    {
       "title": "Node.js",
       "desc": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
       "url": "https://nodejs.org/",
-      "tags": ["tools 🔨"]
+      "tags": ["tools"]
     },
     {
       "title": "Screeps",
@@ -115,7 +127,7 @@
       "title": "BundlePhobia",
       "desc": "Bundlephobia helps you find the performance impact of npm packages. Find the size of any javascript package and its effect on your frontend bundle.",
       "url": "https://bundlephobia.com/",
-      "tags": ["tools 🔨", "intermediate", "search", "visualize"]
+      "tags": ["tools", "intermediate", "search", "visualize"]
     },
     {
       "title": "The Net Ninja",

@@ -1,25 +1,25 @@
 {
     "title": "Minecraft",
     "slug": "/minecraft",
-    "filterTags": ["DigiProved 🤙", "Tools 🔨", "Mods 🤖", "Beginner", "Intermediate"],
+    "filterTags": ["DigiProved 🤙", "Mods 🚧", "Tools", "Beginner", "Intermediate"],
     "resources": [
       {
         "title": "CurseForge",
         "desc": "Manage your mods and addons with the CurseForge desktop app for Windows and macOS. Download CurseForge App.",
         "url": "https://www.curseforge.com/minecraft/mc-mods",
-        "tags": ["open source", "tools 🔨", "mods 🤖"]
+        "tags": ["open source", "tools", "mods 🚧"]
       },
       {
         "title": "modrinth",
         "desc": "Find enjoyable, quality content through our open-source modding platform built for the community. Create stuff, get paidWIP, and deploy your project with our fully documented API!",
         "url": "https://modrinth.com/",
-        "tags": ["open source", "tools 🔨", "mods 🤖"]
+        "tags": ["open source", "tools", "mods 🚧"]
       },
       {
         "title": "Planet Minecraft",
         "desc": "Planet Minecraft is a family friendly community that shares and respects the creative works and interests of others.",
         "url": "https://www.planetminecraft.com/",
-        "tags": ["tools 🔨"]
+        "tags": ["tools"]
       },
       {
         "title": "Code a Minecraft Hacked Client",
@@ -37,25 +37,25 @@
         "title": "Fabric",
         "desc": "Fabric is a lightweight, experimental modding toolchain for Minecraft.",
         "url": "https://fabricmc.net/",
-        "tags": ["tools 🔨", "mods 🤖"]
+        "tags": ["tools", "mods 🚧"]
       },
       {
         "title": "Create a Fabric Mod",
         "desc": "In these tutorials I will show you how to code a Minecraft mod for the Fabric Mod Loader.",
         "url": "https://www.youtube.com/playlist?list=PLNUmd-dHvpdxJdMsDiiSSeVIG4hZ1XSgy",
-        "tags": ["tutorial", "playlist", "intermediate", "mods 🤖"]
+        "tags": ["tutorial", "playlist", "intermediate", "mods 🚧"]
       },
       {
         "title": "Blockbench",
         "desc": "An easy to use 3D model editor for low-poly and pixel-art.",
         "url": "https://www.blockbench.net/",
-        "tags": ["tools 🔨"]
+        "tags": ["tools"]
       },
       {
         "title": "MCreator",
         "desc": "MCreator is open source software used to make Minecraft Java Edition mods, Bedrock Edition Add-Ons, and data packs using an intuitive easy-to-learn interface or with an integrated code editor.",
         "url": "https://mcreator.net/",
-        "tags": ["tools 🔨", "mods 🤖"]
+        "tags": ["tools", "mods 🚧"]
       },
       {
         "title": "Nova Skin",
