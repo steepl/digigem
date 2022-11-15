@@ -14,7 +14,7 @@ import lua from './lua'
 import python from './python'
 // import ruby from './ruby'
 // import server from './server'
-// import utility from './utility'
+import utility from './utility'
 import microbit from './microbit'
 import minecraft from './minecraft'
 // import icons from './icons'
@@ -47,7 +47,7 @@ export default [
   // server,
   microbit,
   minecraft,
-  // utility,
+  utility,
   // icons,
   // accessibility,
   // rust,

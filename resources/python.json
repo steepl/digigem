@@ -49,7 +49,7 @@
       "title": "Pypi",
       "desc": "Find, install and publish Python packages with the Python Package Index",
       "url": "https://pypi.org/",
-      "tags": ["tools 🔨", "packages", "search", "install"]
+      "tags": ["tools", "packages", "search", "install"]
     },
     {
       "title": "A Byte of Python",
@@ -73,7 +73,7 @@
       "title": "Pandas",
       "desc": "Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
       "url": "https://pandas.pydata.org/",
-      "tags": ["documentation", "tools 🔨", "highlights", "release", "data science 🔬"]
+      "tags": ["documentation", "tools", "highlights", "release", "data science 🔬"]
     },
     {
       "title": "SciPy",

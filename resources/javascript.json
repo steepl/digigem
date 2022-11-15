@@ -1,7 +1,7 @@
 {
   "title": "JavaScript",
   "slug": "/javascript",
-  "filterTags": ["DigiProved 🤙", "Phaser 🚀", "Discord 😎", "Tools", "Beginner", "Intermediate", "Advanced"],
+  "filterTags": ["DigiProved 🤙", "Phaser 🚀", "Discord 😎", "Content 📺", "Tools", "Beginner", "Intermediate", "Advanced"],
   "resources": [
     {
       "title": "Programiz",
@@ -17,8 +17,8 @@
     },
     {
       "title": "Codecademy",
-      "desc": "Learn the technical skills to get the job you want. Join over 50 million people choosing Codecademy to start a new career (or advance in their current one",
-      "url": "https://www.codecademy.com/",
+      "desc": "JavaScript is a fun and flexible programming language. It’s one of the core technologies of web development and can be used on both the front-end and the back-end.",
+      "url": "https://www.codecademy.com/learn/introduction-to-javascript/",
       "tags": ["beginner", "tutorial"]
     },
     {
