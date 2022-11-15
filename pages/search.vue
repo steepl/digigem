@@ -5,8 +5,8 @@
     transition(name="fade-card")
       .cards(v-if="areCardsVisible && showCards")
         template(v-if="items.length")
-          template(v-for='item in items')
-            Card(:resource='item' :key='item.title' :createCopyUrl="createCopyUrl" :isActive='activeCard === item.cleanTitle')
+          template(v-for='(item, index) in items')
+            Card(:resource='item' :key='index + item.title' :createCopyUrl="createCopyUrl" :isActive='activeCard === item.cleanTitle')
         p(v-else) No results
 </template>
 
