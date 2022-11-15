@@ -3,12 +3,11 @@
   main
     .gem
     h1.text-black.font-bold.text-xl.mb-2 Wat is Digigem?
-    p Digigem is een resource base van Digibende Utrecht.
+    p Digigem is een resource base voor Digibende Utrecht. Klik op een categorie aan de linkerkant om de inhoud te bekijken.
 
     p.muted // Gemaakt met ❤️ & ☕ door
-    p.contributors Mickey & Bjorn&nbsp;
-    p.fork Digigem is een fork van Webgems gemaakt door Lostdesign
-
+    p.contributors Bjorn & Mickey&nbsp;
+    p.fork Digigem is een fork van webgems gemaakt door lostdesign
 
 </template>
 
@@ -18,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .muted {
