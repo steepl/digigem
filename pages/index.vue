@@ -3,7 +3,7 @@
   main
     .gem
     h1.text-black.font-bold.text-xl.mb-2 Wat is Digigem?
-    p Digigem is een resource base voor Digibende Utrecht. Klik op een categorie aan de linkerkant om de inhoud te bekijken.
+    p Digigem is een resource base voor Digibende Utrecht. <br>Klik op een categorie aan de linkerkant om de inhoud te bekijken.
 
     p.muted // Gemaakt met ❤️ & ☕ door
     p.contributors Bjorn & Mickey&nbsp;
