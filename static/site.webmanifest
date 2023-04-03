@@ -1,7 +1,7 @@
 {
-	"name": "Digigem",
+	"name": "Digigem - Knowledge Base",
 	"short_name": "Digigem",
-	"theme_color": "#da532c",
-	"background_color": "#000",
+	"theme_color": "#FC6E00",
+	"background_color": "#0a0a0a",
 	"display": "standalone"
 }
