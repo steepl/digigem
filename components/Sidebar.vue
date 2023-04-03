@@ -6,7 +6,7 @@
 			<template v-for="category in categories">
 				<nuxt-link
 					:key="category.id"
-					class="rounded-lg cursor-pointer xs:mr-0 mr-2 mb-4 p-2 font-semibold transition-all duration-200 no-underline hover:no-underline hover:bg-[#FC6E00] hover:text-white xs:-skew-y-6 xs:-skew-x-6 xs:-rotate-5 xs:-translate-x-5"
+					class="rounded-md cursor-pointer xs:mr-0 mr-2 mb-4 p-2 font-semibold transition-all duration-200 no-underline hover:no-underline hover:bg-[#FC6E00] hover:text-white xs:-skew-y-6 xs:-skew-x-3 xs:-translate-x-5"
 					:to="category.slug"
 					>{{ category.title }}</nuxt-link
 				>

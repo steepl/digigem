@@ -14,7 +14,11 @@
 						:is-active="activeCard === item.cleanTitle"
 					></Card>
 				</template>
-				<p v-else>Geen resultaten...</p>
+				<p v-else>
+					Geen resultaten gevonden...
+					<br />
+					<NuxtLink class="text-[0.7rem]" to="/">Terug naar home</NuxtLink>
+				</p>
 			</div>
 		</transition>
 	</div>
