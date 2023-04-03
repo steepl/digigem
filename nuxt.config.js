@@ -79,4 +79,6 @@ export default {
 	pageTransition: {
 		name: "fade",
 	},
+
+	target: "static",
 };
