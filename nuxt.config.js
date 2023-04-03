@@ -13,6 +13,10 @@ export default {
 			{ name: "viewport", content: "width=device-width, initial-scale=1" },
 			{ hid: "description", name: "description", content: pkg.description },
 			{ name: "format-detection", content: "telephone=no" },
+			{ name: "og:title", content: "Digigem - Knowledge Base" },
+			{ name: "og:description", content: pkg.description },
+			{ name: "og:type", content: "website" },
+			{ name: "og:image", content: "/assets/logo.png" },
 		],
 		link: [
 			{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
