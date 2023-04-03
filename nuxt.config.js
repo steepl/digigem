@@ -66,4 +66,17 @@ export default {
 			},
 		},
 	},
+
+	loading: {
+		color: "#fc6e00",
+		height: "5px",
+	},
+
+	layoutTransition: {
+		name: "fade",
+	},
+
+	pageTransition: {
+		name: "fade",
+	},
 };
