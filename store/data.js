@@ -1,5 +1,5 @@
-import categories from '../resources'
-import * as R from 'ramda'
+import * as R from "ramda";
+import categories from "../resources";
 import {
 	getAllResources,
 	getAllTags,
@@ -9,89 +9,105 @@ import {
 	tagsNotEmpty,
 	cleanString,
 	transformToResources,
-} from '../utils/pure'
+} from "../utils/pure";
 
 export const state = () => ({
 	resources: transformToResources(categories),
 	tags: getAllTags(categories),
-})
+});
 
 export const getters = {
-	tags: R.prop('tags'),
-	resources: R.prop('resources'),
-	findCategory: state => categoryTitle => {
+	tags: R.prop("tags"),
+	resources: R.prop("resources"),
+	findCategory: (state) => (categoryTitle) => {
 		// equalsCategoryTitle :: Category -> Bool
 		const equalsCategoryTitle = R.compose(
-			R.equals(cleanString(categoryTitle)), R.replace(/ /g, '-') ,cleanString, R.prop('title'),
-		)
+			R.equals(cleanString(categoryTitle)),
+			R.replace(/ /g, "-"),
+			cleanString,
+			R.prop("title")
+		);
 		// findCategory :: [Category] -> Category
-		const findCategory = R.find(equalsCategoryTitle)
-		return findCategory(state.resources)
+		const findCategory = R.find(equalsCategoryTitle);
+		return findCategory(state.resources);
 	},
-	findByName: state => names => {
-		const cleaned = R.map(cleanString, names)
+	findByName: (state) => (names) => {
+		const cleaned = R.map(cleanString, names);
 
 		// [Resource] -> [Resource]
 		const appearsInResource = R.filter(({ cleanTitle, url, desc }) =>
-			partiallyIncludesElOf([cleanTitle, url, desc], cleaned),
-		)
+			partiallyIncludesElOf([cleanTitle, url, desc], cleaned)
+		);
 		// [Category] -> [Resource]
-		const getDesiredResources = R.compose(appearsInResource, getAllResources)
-		return getDesiredResources(state.resources)
+		const getDesiredResources = R.compose(appearsInResource, getAllResources);
+		return getDesiredResources(state.resources);
 	},
-	findByTags: state => tags => {
-		const cleaned = R.map(cleanString, tags)
+	findByTags: (state) => (tags) => {
+		const cleaned = R.map(cleanString, tags);
 
 		// containsTags :: [Resource] -> [Resource]
-		const containsTags = R.filter(tagsNotEmpty)
+		const containsTags = R.filter(tagsNotEmpty);
 		// includesDesiredTags :: Resource -> Bool
-		const includesDesiredTags = R.compose(includesElOf(cleaned), R.prop('tags'))
+		const includesDesiredTags = R.compose(
+			includesElOf(cleaned),
+			R.prop("tags")
+		);
 		// findResourcesByTag :: [Resource] -> [Resource]
-		const findResourcesByTag = R.filter(includesDesiredTags)
+		const findResourcesByTag = R.filter(includesDesiredTags);
 		// getDesiredResources :: [Category] -> [Resource]
-		const getDesiredResources = R.compose(findResourcesByTag, containsTags, getAllResources)
+		const getDesiredResources = R.compose(
+			findResourcesByTag,
+			containsTags,
+			getAllResources
+		);
 
-		return getDesiredResources(state.resources)
+		return getDesiredResources(state.resources);
 	},
-	findBySearchInputs: (_, getters) => (keywords = [], tags = []) => {
-		const foundByKeywords = getters.findByName(keywords)
-		const foundByTags = getters.findByTags(tags)
-		const uniqueResources = foundByTags.filter(x => !foundByKeywords.some(y => equalResources(x, y)))
-		return uniqueResources.concat(foundByKeywords)
-	},
-	sortByTitleAndTags: (_, getters) => (title, tags) => {		
-		const cleaned = R.map(cleanString, tags)
-		
+	findBySearchInputs:
+		(_, getters) =>
+		(keywords = [], tags = []) => {
+			const foundByKeywords = getters.findByName(keywords);
+			const foundByTags = getters.findByTags(tags);
+			const uniqueResources = foundByTags.filter(
+				(x) => !foundByKeywords.some((y) => equalResources(x, y))
+			);
+			return uniqueResources.concat(foundByKeywords);
+		},
+	sortByTitleAndTags: (_, getters) => (title, tags) => {
+		const cleaned = R.map(cleanString, tags);
+
 		// includesDesiredTags :: Resource -> Bool
-		const includesDesiredTags = R.compose(includesElOfAll(cleaned), R.prop('tags'))
+		const includesDesiredTags = R.compose(
+			includesElOfAll(cleaned),
+			R.prop("tags")
+		);
 		// findResourcesByTag :: [Resource] -> [Resource]
-		const findResourcesByTag = R.filter(includesDesiredTags)
+		const findResourcesByTag = R.filter(includesDesiredTags);
 
-		const category = getters.findCategory(title)
-		const clone = [...category.resources]
+		const category = getters.findCategory(title);
+		const clone = [...category.resources];
 
-		return findResourcesByTag(clone.sort(compareTitles))
+		return findResourcesByTag(clone.sort(compareTitles));
 	},
-	sortByTitle: (_, getters) => title => {
-		const category = getters.findCategory(title)
-		const clone = [...category.resources]
+	sortByTitle: (_, getters) => (title) => {
+		const category = getters.findCategory(title);
+		const clone = [...category.resources];
 		return {
 			...category,
 			resources: clone.sort(compareTitles),
-		}
+		};
 	},
-}
+};
 
 const compareTitles = (x, y) => {
 	if (x.cleanTitle > y.cleanTitle) {
-			return 1
+		return 1;
 	} else if (x.cleanTitle < y.cleanTitle) {
-			return -1
+		return -1;
 	} else {
-		return 0
+		return 0;
 	}
-}
+};
 
 const equalResources = (a, b) =>
-	a.title === b.title &&
-	a.cleanTitle == b.cleanTitle
+	a.title === b.title && a.cleanTitle === b.cleanTitle;

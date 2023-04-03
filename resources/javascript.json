@@ -1,163 +1,173 @@
 {
-  "title": "JavaScript",
-  "slug": "/javascript",
-  "filterTags": ["DigiProved 🤙", "Phaser 🚀", "Discord 😎", "Tools", "Beginner", "Intermediate", "Advanced"],
-  "resources": [
-    {
-      "title": "Programiz",
-      "desc": "Learn to code with our beginner-friendly tutorials and examples. Read tutorials and examples, write programs, run code and learn to code.",
-      "url": "https://www.programiz.com/javascript",
-      "tags": ["digiproved 🤙", "beginner", "tutorial"]
-    },
-    {
-      "title": "Learn X in Y Minutes: Scenic Programming Language Tours",
-      "desc": "Take a whirlwind tour of your next favorite language. Community-driven! Algorithms & Data Structures, Languages, ...",
-      "url": "https://learnxinyminutes.com/",
-      "tags": ["intermediate", "open source", "references", "cheat sheet"]
-    },
-    {
-      "title": "Codecademy",
-      "desc": "JavaScript is a fun and flexible programming language. It’s one of the core technologies of web development and can be used on both the front-end and the back-end.",
-      "url": "https://www.codecademy.com/learn/introduction-to-javascript/",
-      "tags": ["beginner", "tutorial"]
-    },
-    {
-      "title": "Frontend Mentor",
-      "desc": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 466.177 developers building projects, reviewing code, and helping each other get better.",
-      "url": "https://www.frontendmentor.io/",
-      "tags": ["beginner", "intermediate", "advanced"]
-    },
-    {
-      "title": "discord.js",
-      "desc": "Discord.js is a powerful node.js module that allows you to interact with the Discord API very easily.",
-      "url": "https://discord.js.org/#/",
-      "tags": ["intermediate", "discord 😎"]
-    },
-    {
-      "title": "discord.js (Guide)",
-      "desc": "Imagine a guide... that explores the many possibilities for your discord.js bot.",
-      "url": "https://discordjs.guide/#before-you-begin",
-      "tags": ["intermediate", "guide", "tools", "discord 😎"]
-    },
-    {
-      "title": "Node.js",
-      "desc": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
-      "url": "https://nodejs.org/",
-      "tags": ["tools"]
-    },
-    {
-      "title": "Screeps",
-      "desc": "A strategy sandbox MMO game with a persistent open world where you play by writing JavaScripts to control your units. They live within the game and operate autonomously even while you are offline!",
-      "url": "https://screeps.com/",
-      "tags": ["advanced", "intermediate", "interactie", "game", "tutorial"]
-    },
-    {
-      "title": "Scrimba",
-      "desc": "Scrimba is a fun and fast way of learning to code! Our interactive courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more.",
-      "url": "https://scrimba.com/",
-      "tags": ["beginner", "digiproved 🤙", "interactie", "tutorial"]
-    },
-    {
-      "title": "Bitburner",
-      "desc": "Bitburner is a programming-based incremental game. Write scripts in JavaScript to automate gameplay, learn skills, play minigames, solve puzzles, and more in this cyberpunk text-based incremental RPG.",
-      "url": "https://danielyxie.github.io/bitburner/",
-      "tags": ["beginner", "open source", "game", "digiproved 🤙", "interactive"]
-    },
-    {
-      "title": "Creating a fully automated game (Bitburner)",
-      "desc": "Bitburner is a programming game that allows you to write automation scripts that run whether or not you're in this game. In this series, I try to automate everything in the game.",
-      "url": "https://www.youtube.com/playlist?list=PLH0mcSPXlsBnef6x-GudnO3PDzq4hT5Dl",
-      "tags": ["beginner","intermediate", "interactive", "game", "playlist"]
-    },
-    {
-      "title": "Phaser",
-      "desc": "Desktop and Mobile HTML5 game framework. A fast, free and fun open source framework for Canvas and WebGL powered browser games.",
-      "url": "https://phaser.io/",
-      "tags": ["beginner", "open source", "game", "phaser 🚀", "documentation"]
-    },
-    {
-      "title": "Dev Launchers",
-      "desc": "We build world-changing software while preparing people to thrive in technical careers",
-      "url": "https://devlaunchers.com/",
-      "tags": ["beginner", "phaser 🚀", "open source", "projects", "game"]
-    },
-    {
-      "title": "WarriorJS",
-      "desc": "An exciting game of programming and Artificial Intelligence",
-      "url": "https://warrior.js.org/",
-      "tags": ["intermediate","code", "play", "maker", "game"]
-    },
-    {
-      "title": "Javascript30",
-      "desc": "Free video courses about javascript. Made by WesBos",
-      "url": "https://javascript30.com",
-      "tags": ["course", "beginner", "intermediate"]
-    },
-    {
-      "title": "Learn Vanilla JS",
-      "desc": "A vanilla JS roadmap, along with learning resources and project ideas to help you get started.",
-      "url": "https://learnvanillajs.com/",
-      "tags": ["projects", "resources", "ideas"]
-    },
-    {
-      "title": "Javascript Info",
-      "desc": "How it's done now. From the basics to advanced topics with simple, but detailed explanations.",
-      "url": "https://javascript.info/",
-      "tags": ["beginner", "intermediate", "tutorial", "explanations", "basics", "advanced"]
-    },
-    {
-      "title": "Eloquent Javascript",
-      "desc": "This is a book about javascript, programming, and the wonders of the digital. You can read it online or get a paperback copy of it.",
-      "url": "http://eloquentjavascript.net",
-      "tags": ["beginner", "advanced", "node", "projects"]
-    },
-    {
-      "title": "MDN Web Docs",
-      "desc": "Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.",
-      "url": "https://developer.mozilla.org/en-US/",
-      "tags": ["digiproved 🤙", "beginner", "documentation", "references"]
-    },
-    {
-      "title": "You Might Not Need jQuery",
-      "desc": "jQuery and its cousins are great, and by all means use them if it makes it easier to develop your application. If you're developing a library on the other hand, please take a moment to consider if you actually need jQuery as a dependency.",
-      "url": "http://youmightnotneedjquery.com/",
-      "tags": ["beginner", "vanilla", "alternatives", "examples", "code"]
-    },
-    {
-      "title": "BundlePhobia",
-      "desc": "Bundlephobia helps you find the performance impact of npm packages. Find the size of any javascript package and its effect on your frontend bundle.",
-      "url": "https://bundlephobia.com/",
-      "tags": ["tools", "intermediate", "search", "visualize"]
-    },
-    {
-      "title": "The Net Ninja",
-      "desc": "Free YouTube tutorials on modern JavaScript (beginner to advanced), Node.js, React, Vue.js, Firebase, MongoDB, Plus loads more...",
-      "url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists",
-      "tags": ["beginner", "video", "tutorial", "playlist"]
-    },
-    {
-      "title": "Javascript Weekly",
-      "desc": "A free, once–weekly email roundup of JavaScript news and articles.",
-      "url": "https://javascriptweekly.com/",
-      "tags": ["email", "subscription", "aggregator"]
-    }, 
-    {
-      "title": "Learn JavaScript Online",
-      "desc": "The easiest way to learn & practice modern JavaScript",
-      "url": "https://learnjavascript.online/",
-      "tags": ["flashcards", "challenges", "fundamentals"]
-    },
-    {
-      "title": "Code to go",
-      "desc": "Find up to date snippets for common JavaScript use cases",
-      "url": "https://codetogo.io/",
-      "tags": ["intermediate",  "examples", "snippets", "search", "use cases"]
-    },
-    {
-      "title": "JavaScript Questions",
-      "desc": "A curated list of JavaScript questions from basic to advanced to either refresh your knowledge or prepare for job interviews. Updated weekly with new questions and available in several languages.",
-      "url": "https://github.com/lydiahallie/javascript-questions",
-      "tags": ["advanced", "questions", "solutions", "detailed"]
-    }
-  ]
+	"title": "JavaScript",
+	"slug": "/javascript",
+	"filterTags": [
+		"🤙 DigiProved",
+		"🧀 Nederlands",
+		"📺 Video",
+		"📚 Beginner",
+		"🎓 Gevorderd",
+		"🧠 Expert",
+		"🚀 Phaser",
+		"💬 Discord",
+		"🛠️ Tools"
+	],
+	"resources": [
+		{
+			"title": "Programiz",
+			"desc": "Learn to code with our beginner-friendly tutorials and examples. Read tutorials and examples, write programs, run code and learn to code.",
+			"url": "https://www.programiz.com/javascript",
+			"tags": ["🤙 digiproved", "📚 beginner"]
+		},
+		{
+			"title": "Learn X in Y Minutes: Scenic Programming Language Tours",
+			"desc": "Take a whirlwind tour of your next favorite language. Community-driven! Algorithms & Data Structures, Languages, ...",
+			"url": "https://learnxinyminutes.com/",
+			"tags": ["🎓 gevorderd"]
+		},
+		{
+			"title": "Codecademy",
+			"desc": "JavaScript is a fun and flexible programming language. It’s one of the core technologies of web development and can be used on both the front-end and the back-end.",
+			"url": "https://www.codecademy.com/learn/introduction-to-javascript/",
+			"tags": ["📚 beginner"]
+		},
+		{
+			"title": "Frontend Mentor",
+			"desc": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 466.177 developers building projects, reviewing code, and helping each other get better.",
+			"url": "https://www.frontendmentor.io/",
+			"tags": ["📚 beginner", "🎓 gevorderd", "🧠 expert"]
+		},
+		{
+			"title": "discord.js",
+			"desc": "Discord.js is a powerful node.js module that allows you to interact with the Discord API very easily.",
+			"url": "https://discord.js.org/#/",
+			"tags": ["🎓 gevorderd", "💬 discord"]
+		},
+		{
+			"title": "discord.js (Guide)",
+			"desc": "Imagine a guide... that explores the many possibilities for your discord.js bot.",
+			"url": "https://discordjs.guide/#before-you-begin",
+			"tags": ["🎓 gevorderd", "🛠️ tools", "💬 discord"]
+		},
+		{
+			"title": "Node.js",
+			"desc": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+			"url": "https://nodejs.org/",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "Screeps",
+			"desc": "A strategy sandbox MMO game with a persistent open world where you play by writing JavaScripts to control your units. They live within the game and operate autonomously even while you are offline!",
+			"url": "https://screeps.com/",
+			"tags": ["🧠 expert", "🎓 gevorderd"]
+		},
+		{
+			"title": "Scrimba",
+			"desc": "Scrimba is a fun and fast way of learning to code! Our interactive courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more.",
+			"url": "https://scrimba.com/",
+			"tags": ["📚 beginner", "🤙 digiproved"]
+		},
+		{
+			"title": "Bitburner",
+			"desc": "Bitburner is a programming-based incremental game. Write scripts in JavaScript to automate gameplay, learn skills, play minigames, solve puzzles, and more in this cyberpunk text-based incremental RPG.",
+			"url": "https://danielyxie.github.io/bitburner/",
+			"tags": ["📚 beginner", "🤙 digiproved"]
+		},
+		{
+			"title": "Creating a fully automated game (Bitburner)",
+			"desc": "Bitburner is a programming game that allows you to write automation scripts that run whether or not you're in this game. In this series, I try to automate everything in the game.",
+			"url": "https://www.youtube.com/playlist?list=PLH0mcSPXlsBnef6x-GudnO3PDzq4hT5Dl",
+			"tags": ["📚 beginner", "🎓 gevorderd"]
+		},
+		{
+			"title": "Phaser",
+			"desc": "Desktop and Mobile HTML5 game framework. A fast, free and fun open source framework for Canvas and WebGL powered browser games.",
+			"url": "https://phaser.io/",
+			"tags": ["📚 beginner", "🚀 phaser"]
+		},
+		{
+			"title": "Dev Launchers",
+			"desc": "We build world-changing software while preparing people to thrive in technical careers",
+			"url": "https://devlaunchers.com/",
+			"tags": ["📚 beginner", "🚀 phaser"]
+		},
+		{
+			"title": "WarriorJS",
+			"desc": "An exciting game of programming and Artificial Intelligence",
+			"url": "https://warrior.js.org/",
+			"tags": ["🎓 gevorderd"]
+		},
+		{
+			"title": "Javascript30",
+			"desc": "Free video courses about javascript. Made by WesBos",
+			"url": "https://javascript30.com",
+			"tags": ["📚 beginner", "🎓 gevorderd"]
+		},
+		{
+			"title": "Learn Vanilla JS",
+			"desc": "A vanilla JS roadmap, along with learning resources and project ideas to help you get started.",
+			"url": "https://learnvanillajs.com/",
+			"tags": []
+		},
+		{
+			"title": "Javascript Info",
+			"desc": "How it's done now. From the basics to advanced topics with simple, but detailed explanations.",
+			"url": "https://javascript.info/",
+			"tags": ["📚 beginner", "🎓 gevorderd", "🧠 expert"]
+		},
+		{
+			"title": "Eloquent Javascript",
+			"desc": "This is a book about javascript, programming, and the wonders of the digital. You can read it online or get a paperback copy of it.",
+			"url": "http://eloquentjavascript.net",
+			"tags": ["📚 beginner", "🧠 expert"]
+		},
+		{
+			"title": "MDN Web Docs",
+			"desc": "Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.",
+			"url": "https://developer.mozilla.org/en-US/",
+			"tags": ["🤙 digiproved", "📚 beginner"]
+		},
+		{
+			"title": "You Might Not Need jQuery",
+			"desc": "jQuery and its cousins are great, and by all means use them if it makes it easier to develop your application. If you're developing a library on the other hand, please take a moment to consider if you actually need jQuery as a dependency.",
+			"url": "http://youmightnotneedjquery.com/",
+			"tags": ["📚 beginner"]
+		},
+		{
+			"title": "BundlePhobia",
+			"desc": "Bundlephobia helps you find the performance impact of npm packages. Find the size of any javascript package and its effect on your frontend bundle.",
+			"url": "https://bundlephobia.com/",
+			"tags": ["🛠️ tools", "🎓 gevorderd"]
+		},
+		{
+			"title": "The Net Ninja",
+			"desc": "Free YouTube tutorials on modern JavaScript (beginner to advanced), Node.js, React, Vue.js, Firebase, MongoDB, Plus loads more...",
+			"url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists",
+			"tags": ["📚 beginner"]
+		},
+		{
+			"title": "Javascript Weekly",
+			"desc": "A free, once–weekly email roundup of JavaScript news and articles.",
+			"url": "https://javascriptweekly.com/",
+			"tags": []
+		},
+		{
+			"title": "Learn JavaScript Online",
+			"desc": "The easiest way to learn & practice modern JavaScript",
+			"url": "https://learnjavascript.online/",
+			"tags": []
+		},
+		{
+			"title": "Code to go",
+			"desc": "Find up to date snippets for common JavaScript use cases",
+			"url": "https://codetogo.io/",
+			"tags": ["🎓 gevorderd"]
+		},
+		{
+			"title": "JavaScript Questions",
+			"desc": "A curated list of JavaScript questions from basic to advanced to either refresh your knowledge or prepare for job interviews. Updated weekly with new questions and available in several languages.",
+			"url": "https://github.com/lydiahallie/javascript-questions",
+			"tags": ["🧠 expert"]
+		}
+	]
 }

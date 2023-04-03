@@ -1,86 +1,87 @@
-<template lang="pug">
-  div
-    transition(name="fade-title" @after-enter="afterEnter")
-      h1(v-if="showTitle") Search
-    transition(name="fade-card")
-      .cards(v-if="areCardsVisible && showCards")
-        template(v-if="items.length")
-          template(v-for='(item, index) in items')
-            Card(:resource='item' :key='index + item.title' :createCopyUrl="createCopyUrl" :isActive='activeCard === item.cleanTitle')
-        p(v-else) No results
+<template>
+	<div>
+		<transition name="fade" @after-enter="afterEnter">
+			<h1 v-if="showTitle">Zoeken & Filteren</h1>
+		</transition>
+		<transition name="fade">
+			<div v-if="areCardsVisible && showCards" class="cards">
+				<template v-if="items.length">
+					<Card
+						v-for="(item, index) in items"
+						:key="index + item.title"
+						:resource="item"
+						:create-copy-url="createCopyUrl"
+						:is-active="activeCard === item.cleanTitle"
+					></Card>
+				</template>
+				<p v-else>Geen resultaten...</p>
+			</div>
+		</transition>
+	</div>
 </template>
 
 <script>
-import Card from '../components/Card'
-import * as R from 'ramda'
+import * as R from "ramda";
+import Card from "../components/Card";
 
 export default {
-  components: { Card },
-  data() {
-    return {
-      activeCard: '',
-      items: [],
-      searchInput: {},
-      showTitle: false,
-      showCards: false,
-      debounceID: 0,
-    }
-  },
-  computed: {
-    areCardsVisible() {
-      return this.$store.getters['Sidebar/areCardsVisible']
-    },
-  },
-  watch: {
-    $route(updatedChanges) {
-      clearTimeout(this.debounceID)
-      const updateSearch = () => {
-        const keywords = updatedChanges.query.keywords
-        const tags = updatedChanges.query.tags
-        this.searchInput = {
-          keywords: keywords && R.split(',', keywords),
-          tags: tags && R.split(',', tags),
-        }
-      }
+	components: { Card },
+	data() {
+		return {
+			activeCard: "",
+			items: [],
+			searchInput: {},
+			showTitle: false,
+			showCards: false,
+			debounceID: 0,
+		};
+	},
+	computed: {
+		areCardsVisible() {
+			return this.$store.getters["Sidebar/areCardsVisible"];
+		},
+	},
+	watch: {
+		$route(updatedChanges) {
+			clearTimeout(this.debounceID);
+			const updateSearch = () => {
+				const keywords = updatedChanges.query.keywords;
+				this.searchInput = {
+					keywords: keywords && R.split(",", keywords),
+				};
+			};
 
-      if (updatedChanges.query.enter !== 'true')
-        this.debounceID = setTimeout(updateSearch, 300)
-      else
-        updateSearch()
-    },
-    searchInput(searchInput) {
-      this.items = this.$store.getters['data/findBySearchInputs'](searchInput.keywords, searchInput.tags)
-    },
-  },
-  mounted() {
-    this.showTitle = true
+			if (updatedChanges.query.enter !== "true")
+				this.debounceID = setTimeout(updateSearch, 300);
+			else updateSearch();
+		},
+		searchInput(searchInput) {
+			this.items = this.$store.getters["data/findBySearchInputs"](
+				searchInput.keywords
+			);
+		},
+	},
+	mounted() {
+		this.showTitle = true;
 
-    const keywords = this.$route.query.keywords
-    const tags = this.$route.query.tags
-    this.searchInput = {
-      keywords: keywords && R.split(',', keywords),
-      tags: tags && R.split(',', tags),
-    }
-  },
-  methods: {
-    async createCopyUrl(resource) {
-      try {
-        const { url } = resource
-        await this.$copyText(url)
-      } catch (e) {
-        console.error(e)
-      }
-    },
-    afterEnter() {
-      this.showCards = true
-    },
-  },
-}
+		const keywords = this.$route.query.keywords;
+		this.searchInput = {
+			keywords: keywords && R.split(",", keywords),
+		};
+	},
+	methods: {
+		async createCopyUrl(resource) {
+			try {
+				const { url } = resource;
+				await this.$copyText(url);
+			} catch (err) {
+				// eslint-disable-next-line no-console
+				console.error("Failed to copy: ", err);
+			}
+		},
+		afterEnter() {
+			this.showCards = true;
+		},
+	},
+};
 </script>
-
-<style lang="scss" scoped>
-table {
-	width: 100%;
-  table-layout: fixed;
-}
-</style>

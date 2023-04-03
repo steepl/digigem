@@ -1,45 +1,45 @@
 {
-  "name": "digigem",
-  "version": "1.0.0",
-  "description": "Digigem is een resource base van Digibende Utrecht.",
-  "author": "Forked from webgems, Original Author: lost.design",
-  "private": false,
-  "scripts": {
-    "dev": "nuxt",
-    "dev-legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt",
-    "build": "nuxt build",
-    "build-legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt build",
-    "start": "nuxt start",
-    "start-legacy": "cross-env NODE_OPTIONS='--openssl-legacy-provider' nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
-  },
-  "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.15.8",
-    "nuxt-clipboard2": "^0.2.1",
-    "ramda": "^0.26.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
-    "@vue/test-utils": "^1.1.0",
-    "autoprefixer": "^8.6.4",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.5.1",
-    "eslint-config-prettier": "^6.12.0",
-    "eslint-loader": "^3.0.2",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^5.2.3",
-    "node-sass": "7.0.0",
-    "nodemon": "^1.18.9",
-    "prettier": "^1.18.2",
-    "pug": "^2.0.3",
-    "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^10.1.1",
-    "tailwindcss": "^0.7.0",
-    "yarn-audit-fix": "^9.3.6"
-  }
+	"name": "digigem",
+	"version": "1.0.0",
+	"description": "Digigem is een Knowledge Base van Digibende Utrecht. Hierin vind je tutorials en informatie over allerlei onderwerpen.",
+	"author": "Digibende Utrecht",
+	"license": "GPL-3.0",
+	"private": true,
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+		"lint:prettier": "prettier --check .",
+		"lint": "npm run lint:js && npm run lint:prettier",
+		"lintfix": "prettier --write --list-different . && npm run lint:js -- --fix"
+	},
+	"dependencies": {
+		"core-js": "^3.25.3",
+		"nuxt": "^2.15.8",
+		"nuxt-clipboard": "^0.0.7",
+		"ramda": "^0.28.0",
+		"ufo": "^1.1.1",
+		"vue": "^2.7.10",
+		"vue-server-renderer": "^2.7.10",
+		"vue-template-compiler": "^2.7.10"
+	},
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.19.1",
+		"@nuxtjs/eslint-config": "^11.0.0",
+		"@nuxtjs/eslint-module": "^3.1.0",
+		"@nuxtjs/svg": "^0.4.0",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.24.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-nuxt": "^4.0.0",
+		"eslint-plugin-vue": "^9.5.1",
+		"postcss": "^8.4.21",
+		"prettier": "^2.7.1",
+		"sass": "^1.60.0",
+		"sass-loader": "^10.1.1",
+		"tailwindcss": "^3.3.1",
+		"webpack": "^4.46.0"
+	}
 }

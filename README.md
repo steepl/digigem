@@ -4,15 +4,15 @@ Digigem is a Dutch/English fork of [webgems](https://github.com/lostdesign/webge
 
 ## Built With
 
-* [Nuxt.js docs](https://nuxtjs.org) Nuxt.js
-* SCSS
-* PUG
+- [Nuxt.js docs](https://nuxtjs.org) Nuxt.js
+- SCSS
+- PUG
 
 ## Authors
 
-* **lost.design** - *Initial work* - [lostdesign](https://github.com/lostdesign)
-* **walkxcode** - *Design, QoL, updates* - [walkxcode](https://github.com/walkxcode)
-* **steepl** - *New features, updates* - [steepl](https://github.com/steepl)
+- **lost.design** - _Initial work_ - [lostdesign](https://github.com/lostdesign)
+- **walkxcode** - _Design, QoL, updates_ - [walkxcode](https://github.com/walkxcode)
+- **steepl** - _New features, updates_ - [steepl](https://github.com/steepl)
 
 ## License
 

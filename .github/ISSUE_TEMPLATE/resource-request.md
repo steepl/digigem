@@ -1,10 +1,9 @@
 ---
 name: Resource request
 about: Suggest a new resource
-title: ''
+title: ""
 labels: new resource
 assignees: lostdesign
-
 ---
 
 **Name**

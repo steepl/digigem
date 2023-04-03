@@ -1,79 +1,88 @@
 {
-  "title": "Minecraft",
-  "slug": "/minecraft",
-  "filterTags": ["DigiProved 🤙", "Mods 🚧", "Content 📺", "Tools", "Beginner", "Intermediate"],
-  "resources": [
-    {
-      "title": "CurseForge",
-      "desc": "Manage your mods and addons with the CurseForge desktop app for Windows and macOS. Download CurseForge App.",
-      "url": "https://www.curseforge.com/minecraft/mc-mods",
-      "tags": ["open source", "tools", "mods 🚧"]
-    },
-    {
-      "title": "modrinth",
-      "desc": "Find enjoyable, quality content through our open-source modding platform built for the community. Create stuff, get paidWIP, and deploy your project with our fully documented API!",
-      "url": "https://modrinth.com/",
-      "tags": ["open source", "tools", "mods 🚧"]
-    },
-    {
-      "title": "Planet Minecraft",
-      "desc": "Planet Minecraft is a family friendly community that shares and respects the creative works and interests of others.",
-      "url": "https://www.planetminecraft.com/",
-      "tags": ["tools"]
-    },
-    {
-      "title": "Code a Minecraft Hacked Client",
-      "desc": "Have you ever wanted to make your own Minecraft cheats? This is definitely the tutorial for you, because I'm going deeper than any other tutorial out there to teach you the core concepts of a client.",
-      "url": "https://www.youtube.com/playlist?list=PLhgpmtS-kfPfoXwj-LlgavSXr3AoTnZ34",
-      "tags": ["tutorial", "playlist", "intermediate"]
-    },
-    {
-      "title": "Spigot Plugin Development",
-      "desc": "The best Spigot plugin development tutorials on the internet.",
-      "url": "https://www.youtube.com/playlist?list=PLfu_Bpi_zcDNEKmR82hnbv9UxQ16nUBF7",
-      "tags": ["tutorial", "playlist", "beginner", "digiproved 🤙", "intermediate"]
-    },
-    {
-      "title": "Fabric",
-      "desc": "Fabric is a lightweight, experimental modding toolchain for Minecraft.",
-      "url": "https://fabricmc.net/",
-      "tags": ["tools", "mods 🚧"]
-    },
-    {
-      "title": "Create a Fabric Mod",
-      "desc": "In these tutorials I will show you how to code a Minecraft mod for the Fabric Mod Loader.",
-      "url": "https://www.youtube.com/playlist?list=PLNUmd-dHvpdxJdMsDiiSSeVIG4hZ1XSgy",
-      "tags": ["tutorial", "playlist", "intermediate", "mods 🚧"]
-    },
-    {
-      "title": "Blockbench",
-      "desc": "An easy to use 3D model editor for low-poly and pixel-art.",
-      "url": "https://www.blockbench.net/",
-      "tags": ["tools"]
-    },
-    {
-      "title": "MCreator",
-      "desc": "MCreator is open source software used to make Minecraft Java Edition mods, Bedrock Edition Add-Ons, and data packs using an intuitive easy-to-learn interface or with an integrated code editor.",
-      "url": "https://mcreator.net/",
-      "tags": ["tools", "mods 🚧"]
-    },
-    {
-      "title": "Nova Skin",
-      "desc": "Minecraft Player Skin Editor, Texture Packs & Wallpaper Creator.",
-      "url": "https://minecraft.novaskin.me/",
-      "tags": ["beginner"]
-    },
-    {
-      "title": "Minecraft Education Edition",
-      "desc": "Find out how to use Minecraft in the classroom. Get the latest information on Minecraft: Education Edition, and take your students to the next level.",
-      "url": "https://education.minecraft.net/en-us",
-      "tags": ["beginner", "digiproved 🤙"]
-    },
-    {
-      "title": "LiveOverflow",
-      "desc": "just a wannabe hacker... making videos about various IT security topics and participating in hacking competitions.",
-      "url": "https://www.youtube.com/c/LiveOverflow/videos",
-      "tags": ["content 📺", "hacking"]
-    }
-  ]
+	"title": "Minecraft",
+	"slug": "/minecraft",
+	"filterTags": [
+		"🤙 DigiProved",
+		"🧀 Nederlands",
+		"📺 Video",
+		"📚 Beginner",
+		"🎓 Gevorderd",
+		"🧠 Expert",
+		"🚧 Mods",
+		"🛠️ Tools"
+	],
+	"resources": [
+		{
+			"title": "CurseForge",
+			"desc": "Manage your mods and addons with the CurseForge desktop app for Windows and macOS. Download CurseForge App.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods",
+			"tags": ["🛠️ tools", "🚧 mods"]
+		},
+		{
+			"title": "modrinth",
+			"desc": "Find enjoyable, quality content through our open-source modding platform built for the community. Create stuff, get paidWIP, and deploy your project with our fully documented API!",
+			"url": "https://modrinth.com/",
+			"tags": ["🛠️ tools", "🚧 mods"]
+		},
+		{
+			"title": "Planet Minecraft",
+			"desc": "Planet Minecraft is a family friendly community that shares and respects the creative works and interests of others.",
+			"url": "https://www.planetminecraft.com/",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "Code a Minecraft Hacked Client",
+			"desc": "Have you ever wanted to make your own Minecraft cheats? This is definitely the tutorial for you, because I'm going deeper than any other tutorial out there to teach you the core concepts of a client.",
+			"url": "https://www.youtube.com/playlist?list=PLhgpmtS-kfPfoXwj-LlgavSXr3AoTnZ34",
+			"tags": ["🎓 gevorderd"]
+		},
+		{
+			"title": "Spigot Plugin Development",
+			"desc": "The best Spigot plugin development tutorials on the internet.",
+			"url": "https://www.youtube.com/playlist?list=PLfu_Bpi_zcDNEKmR82hnbv9UxQ16nUBF7",
+			"tags": ["📚 beginner", "🤙 digiproved", "🎓 gevorderd"]
+		},
+		{
+			"title": "Fabric",
+			"desc": "Fabric is a lightweight, experimental modding toolchain for Minecraft.",
+			"url": "https://fabricmc.net/",
+			"tags": ["🛠️ tools", "🚧 mods"]
+		},
+		{
+			"title": "Create a Fabric Mod",
+			"desc": "In these tutorials I will show you how to code a Minecraft mod for the Fabric Mod Loader.",
+			"url": "https://www.youtube.com/playlist?list=PLNUmd-dHvpdxJdMsDiiSSeVIG4hZ1XSgy",
+			"tags": ["🎓 gevorderd", "🚧 mods"]
+		},
+		{
+			"title": "Blockbench",
+			"desc": "An easy to use 3D model editor for low-poly and pixel-art.",
+			"url": "https://www.blockbench.net/",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "MCreator",
+			"desc": "MCreator is open source software used to make Minecraft Java Edition mods, Bedrock Edition Add-Ons, and data packs using an intuitive easy-to-learn interface or with an integrated code editor.",
+			"url": "https://mcreator.net/",
+			"tags": ["🛠️ tools", "🚧 mods"]
+		},
+		{
+			"title": "Nova Skin",
+			"desc": "Minecraft Player Skin Editor, Texture Packs & Wallpaper Creator.",
+			"url": "https://minecraft.novaskin.me/",
+			"tags": ["📚 beginner"]
+		},
+		{
+			"title": "Minecraft Education Edition",
+			"desc": "Find out how to use Minecraft in the classroom. Get the latest information on Minecraft: Education Edition, and take your students to the next level.",
+			"url": "https://education.minecraft.net/en-us",
+			"tags": ["📚 beginner", "🤙 digiproved"]
+		},
+		{
+			"title": "LiveOverflow",
+			"desc": "just a wannabe hacker... making videos about various IT security topics and participating in hacking competitions.",
+			"url": "https://www.youtube.com/c/LiveOverflow/videos",
+			"tags": ["📺 video"]
+		}
+	]
 }

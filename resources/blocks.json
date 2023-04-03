@@ -1,25 +1,33 @@
 {
-  "title": "Blocks",
-  "slug": "/blocks",
-  "filterTags": ["DigiProved 🤙", "Game Development 🎮" ,"Content 📺", "Nederlands", "Beginner"],
-  "resources": [
-    {
-      "title": "Makecode Arcade",
-      "desc": "Develop your programming skills by quickly creating and modding retro arcade games with Blocks and JavaScript in the MakeCode editor.",
-      "url": "https://arcade.makecode.com/",
-      "tags": ["digiproved 🤙", "beginner", "game development 🎮"]
-    },
-    {
-      "title": "Microsoft MakeCode",
-      "desc": "On this channel, we post a variety videos ranging from MakeCode tutorials to live-streams to help you combine of the magic of making with the power of code.",
-      "url": "https://www.youtube.com/c/MicrosoftMakeCode/videos",
-      "tags": ["beginner", "game development 🎮", "content 📺"]
-    },
-    {
-      "title": "Raspberry Pi Foundation",
-      "desc": "Blader door onze gratis codeerspellen, maak een 3D-game in Unity of een racegame in Scratch met een timer om je vrienden uit te dagen!",
-      "url": "https://projects.raspberrypi.org/nl-NL/projects",
-      "tags": ["beginner", "nederlands"]
-    }
-  ]
+	"title": "Blocks",
+	"slug": "/blocks",
+	"filterTags": [
+		"🤙 DigiProved",
+		"🧀 Nederlands",
+		"📺 Video",
+		"📚 Beginner",
+		"🎓 Gevorderd",
+		"🧠 Expert",
+		"🎮 Game Development"
+	],
+	"resources": [
+		{
+			"title": "Makecode Arcade",
+			"desc": "Develop your programming skills by quickly creating and modding retro arcade games with Blocks and JavaScript in the MakeCode editor.",
+			"url": "https://arcade.makecode.com/",
+			"tags": ["🤙 digiproved", "📚 beginner", "🎮 game development"]
+		},
+		{
+			"title": "Microsoft MakeCode",
+			"desc": "On this channel, we post a variety videos ranging from MakeCode tutorials to live-streams to help you combine of the magic of making with the power of code.",
+			"url": "https://www.youtube.com/c/MicrosoftMakeCode/videos",
+			"tags": ["📚 beginner", "🎮 game development", "📺 video"]
+		},
+		{
+			"title": "Raspberry Pi Foundation",
+			"desc": "Blader door onze gratis codeerspellen, maak een 3D-game in Unity of een racegame in Scratch met een timer om je vrienden uit te dagen!",
+			"url": "https://projects.raspberrypi.org/nl-NL/projects",
+			"tags": ["📚 beginner", "🧀 nederlands"]
+		}
+	]
 }
