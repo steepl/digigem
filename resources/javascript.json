@@ -2,12 +2,11 @@
 	"title": "JavaScript",
 	"slug": "/javascript",
 	"filterTags": [
-		"🤙 DigiProved",
+		"🏆 DigiProved",
 		"🧀 Nederlands",
 		"📺 Video",
 		"📚 Beginner",
 		"🎓 Gevorderd",
-		"🧠 Expert",
 		"🚀 Phaser",
 		"💬 Discord",
 		"🛠️ Tools"
@@ -17,7 +16,7 @@
 			"title": "Programiz",
 			"desc": "Learn to code with our beginner-friendly tutorials and examples. Read tutorials and examples, write programs, run code and learn to code.",
 			"url": "https://www.programiz.com/javascript",
-			"tags": ["🤙 digiproved", "📚 beginner"]
+			"tags": ["🏆 digiproved", "📚 beginner"]
 		},
 		{
 			"title": "Learn X in Y Minutes: Scenic Programming Language Tours",
@@ -35,7 +34,7 @@
 			"title": "Frontend Mentor",
 			"desc": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 466.177 developers building projects, reviewing code, and helping each other get better.",
 			"url": "https://www.frontendmentor.io/",
-			"tags": ["📚 beginner", "🎓 gevorderd", "🧠 expert"]
+			"tags": ["📚 beginner", "🎓 gevorderd", "🎓 gevorderd"]
 		},
 		{
 			"title": "discord.js",
@@ -59,19 +58,19 @@
 			"title": "Screeps",
 			"desc": "A strategy sandbox MMO game with a persistent open world where you play by writing JavaScripts to control your units. They live within the game and operate autonomously even while you are offline!",
 			"url": "https://screeps.com/",
-			"tags": ["🧠 expert", "🎓 gevorderd"]
+			"tags": ["🎓 gevorderd", "🎓 gevorderd"]
 		},
 		{
 			"title": "Scrimba",
 			"desc": "Scrimba is a fun and fast way of learning to code! Our interactive courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more.",
 			"url": "https://scrimba.com/",
-			"tags": ["📚 beginner", "🤙 digiproved"]
+			"tags": ["📚 beginner", "🏆 digiproved"]
 		},
 		{
 			"title": "Bitburner",
 			"desc": "Bitburner is a programming-based incremental game. Write scripts in JavaScript to automate gameplay, learn skills, play minigames, solve puzzles, and more in this cyberpunk text-based incremental RPG.",
 			"url": "https://danielyxie.github.io/bitburner/",
-			"tags": ["📚 beginner", "🤙 digiproved"]
+			"tags": ["📚 beginner", "🏆 digiproved"]
 		},
 		{
 			"title": "Creating a fully automated game (Bitburner)",
@@ -113,19 +112,19 @@
 			"title": "Javascript Info",
 			"desc": "How it's done now. From the basics to advanced topics with simple, but detailed explanations.",
 			"url": "https://javascript.info/",
-			"tags": ["📚 beginner", "🎓 gevorderd", "🧠 expert"]
+			"tags": ["📚 beginner", "🎓 gevorderd", "🎓 gevorderd"]
 		},
 		{
 			"title": "Eloquent Javascript",
 			"desc": "This is a book about javascript, programming, and the wonders of the digital. You can read it online or get a paperback copy of it.",
 			"url": "http://eloquentjavascript.net",
-			"tags": ["📚 beginner", "🧠 expert"]
+			"tags": ["📚 beginner", "🎓 gevorderd"]
 		},
 		{
 			"title": "MDN Web Docs",
 			"desc": "Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.",
 			"url": "https://developer.mozilla.org/en-US/",
-			"tags": ["🤙 digiproved", "📚 beginner"]
+			"tags": ["🏆 digiproved", "📚 beginner"]
 		},
 		{
 			"title": "You Might Not Need jQuery",
@@ -167,7 +166,7 @@
 			"title": "JavaScript Questions",
 			"desc": "A curated list of JavaScript questions from basic to advanced to either refresh your knowledge or prepare for job interviews. Updated weekly with new questions and available in several languages.",
 			"url": "https://github.com/lydiahallie/javascript-questions",
-			"tags": ["🧠 expert"]
+			"tags": ["🎓 gevorderd"]
 		}
 	]
 }

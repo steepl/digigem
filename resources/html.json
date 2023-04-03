@@ -2,19 +2,18 @@
 	"title": "HTML",
 	"slug": "/html",
 	"filterTags": [
-		"🤙 DigiProved",
+		"🏆 DigiProved",
 		"🧀 Nederlands",
 		"📺 Video",
 		"📚 Beginner",
-		"🎓 Gevorderd",
-		"🧠 Expert"
+		"🎓 Gevorderd"
 	],
 	"resources": [
 		{
 			"title": "Frontend Mentor",
 			"desc": "Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.  ",
 			"url": "https://www.frontendmentor.io/",
-			"tags": ["📚 beginner", "🎓 gevorderd", "🧠 expert"]
+			"tags": ["📚 beginner", "🎓 gevorderd", "🎓 gevorderd"]
 		},
 		{
 			"title": "HTML Elements",
@@ -38,13 +37,13 @@
 			"title": "mimo",
 			"desc": "Mimo is a platform that teaches programming, HTML, CSS, JavaScript, Swift, and more through gamified and interactive lessons on the go.",
 			"url": "https://getmimo.com/",
-			"tags": ["🤙 digiproved", "📚 beginner"]
+			"tags": ["🏆 digiproved", "📚 beginner"]
 		},
 		{
 			"title": "Codecademy",
 			"desc": "In just 4 hours, learn the basics of HTML5 and start building & editing web pages.",
 			"url": "https://www.codecademy.com/learn/learn-html",
-			"tags": ["🤙 digiproved", "📚 beginner"]
+			"tags": ["🏆 digiproved", "📚 beginner"]
 		},
 		{
 			"title": "Markup validator",
@@ -56,7 +55,7 @@
 			"title": "Scrimba",
 			"desc": "Scrimba is a fun and fast way of learning to code! Our interactive courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more.",
 			"url": "https://scrimba.com/",
-			"tags": ["📚 beginner", "🤙 digiproved"]
+			"tags": ["📚 beginner", "🏆 digiproved"]
 		}
 	]
 }

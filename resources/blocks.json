@@ -2,12 +2,11 @@
 	"title": "Blocks",
 	"slug": "/blocks",
 	"filterTags": [
-		"🤙 DigiProved",
+		"🏆 DigiProved",
 		"🧀 Nederlands",
 		"📺 Video",
 		"📚 Beginner",
 		"🎓 Gevorderd",
-		"🧠 Expert",
 		"🎮 Game Development"
 	],
 	"resources": [
@@ -15,7 +14,7 @@
 			"title": "Makecode Arcade",
 			"desc": "Develop your programming skills by quickly creating and modding retro arcade games with Blocks and JavaScript in the MakeCode editor.",
 			"url": "https://arcade.makecode.com/",
-			"tags": ["🤙 digiproved", "📚 beginner", "🎮 game development"]
+			"tags": ["🏆 digiproved", "📚 beginner", "🎮 game development"]
 		},
 		{
 			"title": "Microsoft MakeCode",

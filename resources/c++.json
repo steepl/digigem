@@ -2,12 +2,11 @@
 	"title": "C++",
 	"slug": "/c++",
 	"filterTags": [
-		"🤙 DigiProved",
+		"🏆 DigiProved",
 		"🧀 Nederlands",
 		"📺 Video",
 		"📚 Beginner",
 		"🎓 Gevorderd",
-		"🧠 Expert",
 		"🤖 Arduino",
 		"🛠️ Tools"
 	],
@@ -22,7 +21,7 @@
 			"title": "Programiz",
 			"desc": "C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on.",
 			"url": "https://www.programiz.com/cpp-programming",
-			"tags": ["📚 beginner", "🤙 digiproved"]
+			"tags": ["📚 beginner", "🏆 digiproved"]
 		},
 		{
 			"title": "Tinkercad",
@@ -34,13 +33,13 @@
 			"title": "Arduino Cloud",
 			"desc": "The Arduino IoT Cloud is a online platform that makes it easy for you to create, deploy and monitor IoT projects.",
 			"url": "https://cloud.arduino.cc/",
-			"tags": ["📚 beginner", "🤙 digiproved", "🤖 arduino"]
+			"tags": ["📚 beginner", "🏆 digiproved", "🤖 arduino"]
 		},
 		{
 			"title": "Codecademy",
 			"desc": "Learn C++ — a versatile programming language that’s important for developing software, games, databases, and more.",
 			"url": "https://www.codecademy.com/learn/learn-c-plus-plus/",
-			"tags": ["📚 beginner", "🤙 digiproved"]
+			"tags": ["📚 beginner", "🏆 digiproved"]
 		}
 	]
 }

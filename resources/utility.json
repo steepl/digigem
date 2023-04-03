@@ -2,19 +2,18 @@
 	"title": "Utility",
 	"slug": "/utility",
 	"filterTags": [
-		"🤙 DigiProved",
+		"🏆 DigiProved",
 		"🧀 Nederlands",
 		"📺 Video",
 		"📚 Beginner",
-		"🎓 Gevorderd",
-		"🧠 Expert"
+		"🎓 Gevorderd"
 	],
 	"resources": [
 		{
 			"title": "The Algorithms",
 			"desc": "Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language.",
 			"url": "https://the-algorithms.com/",
-			"tags": ["🎓 gevorderd", "🧠 expert"]
+			"tags": ["🎓 gevorderd", "🎓 gevorderd"]
 		},
 		{
 			"title": "JSON Generator",
@@ -122,7 +121,7 @@
 			"title": "Carbon",
 			"desc": "Create and share beautiful images of your source code.",
 			"url": "https://carbon.now.sh",
-			"tags": ["🤙 digiproved"]
+			"tags": ["🏆 digiproved"]
 		},
 		{
 			"title": "Ngrok",

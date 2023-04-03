@@ -2,19 +2,18 @@
 	"title": "Microbit",
 	"slug": "/microbit",
 	"filterTags": [
-		"🤙 DigiProved",
+		"🏆 DigiProved",
 		"🧀 Nederlands",
 		"📺 Video",
 		"📚 Beginner",
-		"🎓 Gevorderd",
-		"🧠 Expert"
+		"🎓 Gevorderd"
 	],
 	"resources": [
 		{
 			"title": "Microsoft MakeCode",
 			"desc": "A Blocks / JavaScript code editor for the micro:bit powered by Microsoft MakeCode.",
 			"url": "https://makecode.microbit.org",
-			"tags": ["📚 beginner", "🤙 digiproved"]
+			"tags": ["📚 beginner", "🏆 digiproved"]
 		},
 		{
 			"title": "mirco:bit",

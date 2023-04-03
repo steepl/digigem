@@ -2,12 +2,11 @@
 	"title": "Python",
 	"slug": "/python",
 	"filterTags": [
-		"🤙 DigiProved",
+		"🏆 DigiProved",
 		"🧀 Nederlands",
 		"📺 Video",
 		"📚 Beginner",
 		"🎓 Gevorderd",
-		"🧠 Expert",
 		"🔬 Data Science",
 		"🛠️ Tools"
 	],
@@ -16,7 +15,7 @@
 			"title": "Code Café",
 			"desc": "Leer programmeren en maak leuke projecten.",
 			"url": "https://www.youtube.com/c/CodeCaf%C3%A9/playlists",
-			"tags": ["🧀 nederlands", "📚 beginner", "🤙 digiproved"]
+			"tags": ["🧀 nederlands", "📚 beginner", "🏆 digiproved"]
 		},
 		{
 			"title": "Learn X in Y Minutes: Scenic Programming Language Tours",
@@ -28,13 +27,13 @@
 			"title": "5 Mini Python Projects",
 			"desc": "Welcome back to another video! In this video, I will be showing 5 mini python projects for beginners.",
 			"url": "https://www.youtube.com/watch?v=DLn3jOsNRVE",
-			"tags": ["🤙 digiproved", "📚 beginner"]
+			"tags": ["🏆 digiproved", "📚 beginner"]
 		},
 		{
 			"title": "Python Cheatsheet",
 			"desc": "Anyone can forget how to make character classes for a regex, slice a list or do a for loop. This cheat sheet tries to provide a basic reference for beginner and advanced developers, lower the entry barrier for newcomers and help veterans refresh the old tricks.",
 			"url": "http://pythoncheatsheet.org/",
-			"tags": ["🤙 digiproved", "📚 beginner"]
+			"tags": ["🏆 digiproved", "📚 beginner"]
 		},
 		{
 			"title": "Python GUIS",
@@ -76,7 +75,7 @@
 			"title": "Programiz",
 			"desc": "Learn to code with our beginner-friendly tutorials and examples. Read tutorials and examples, write programs, run code and learn to code.",
 			"url": "https://www.programiz.com/python-programming",
-			"tags": ["🤙 digiproved", "📚 beginner"]
+			"tags": ["🏆 digiproved", "📚 beginner"]
 		},
 		{
 			"title": "Pandas",

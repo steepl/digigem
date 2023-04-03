@@ -2,12 +2,11 @@
 	"title": "Minecraft",
 	"slug": "/minecraft",
 	"filterTags": [
-		"🤙 DigiProved",
+		"🏆 DigiProved",
 		"🧀 Nederlands",
 		"📺 Video",
 		"📚 Beginner",
 		"🎓 Gevorderd",
-		"🧠 Expert",
 		"🚧 Mods",
 		"🛠️ Tools"
 	],
@@ -40,7 +39,7 @@
 			"title": "Spigot Plugin Development",
 			"desc": "The best Spigot plugin development tutorials on the internet.",
 			"url": "https://www.youtube.com/playlist?list=PLfu_Bpi_zcDNEKmR82hnbv9UxQ16nUBF7",
-			"tags": ["📚 beginner", "🤙 digiproved", "🎓 gevorderd"]
+			"tags": ["📚 beginner", "🏆 digiproved", "🎓 gevorderd"]
 		},
 		{
 			"title": "Fabric",
@@ -76,7 +75,7 @@
 			"title": "Minecraft Education Edition",
 			"desc": "Find out how to use Minecraft in the classroom. Get the latest information on Minecraft: Education Edition, and take your students to the next level.",
 			"url": "https://education.minecraft.net/en-us",
-			"tags": ["📚 beginner", "🤙 digiproved"]
+			"tags": ["📚 beginner", "🏆 digiproved"]
 		},
 		{
 			"title": "LiveOverflow",
