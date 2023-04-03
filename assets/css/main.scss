@@ -55,7 +55,6 @@ table {
 	table-layout: fixed;
 }
 
-.nuxt-link-active,
 .nuxt-link-exact-active {
 	background-color: #fc6e00;
 	color: #fff;
@@ -111,22 +110,19 @@ h1 {
 }
 
 .fade {
-	&-enter {
+	&-enter-active,
+	&-leave-active {
+		transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+	}
+
+	&-enter,
+	&-leave-to {
 		opacity: 0;
-		transform: translateY(1rem);
-	}
-
-	&-to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-
-	&-active {
-		transition: all 0.3s ease-in-out;
-		-webkit-transition: all 0.3s ease-in-out;
-		-moz-transition: all 0.3s ease-in-out;
-		-ms-transition: all 0.3s ease-in-out;
-		-o-transition: all 0.3s ease-in-out;
+		transform: translateY(10px);
 	}
 }
 
