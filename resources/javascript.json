@@ -9,7 +9,8 @@
 		"🎓 Gevorderd",
 		"🚀 Phaser",
 		"💬 Discord",
-		"🛠️ Tools"
+		"🛠️ Tools",
+		"📄 Documentatie"
 	],
 	"resources": [
 		{
@@ -17,12 +18,6 @@
 			"desc": "Learn to code with our beginner-friendly tutorials and examples. Read tutorials and examples, write programs, run code and learn to code.",
 			"url": "https://www.programiz.com/javascript",
 			"tags": ["🏆 digiproved", "📚 beginner"]
-		},
-		{
-			"title": "Learn X in Y Minutes: Scenic Programming Language Tours",
-			"desc": "Take a whirlwind tour of your next favorite language. Community-driven! Algorithms & Data Structures, Languages, ...",
-			"url": "https://learnxinyminutes.com/",
-			"tags": ["🎓 gevorderd"]
 		},
 		{
 			"title": "Codecademy",
@@ -34,37 +29,37 @@
 			"title": "Frontend Mentor",
 			"desc": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 466.177 developers building projects, reviewing code, and helping each other get better.",
 			"url": "https://www.frontendmentor.io/",
-			"tags": ["📚 beginner", "🎓 gevorderd", "🎓 gevorderd"]
+			"tags": ["🎓 gevorderd"]
 		},
 		{
 			"title": "discord.js",
 			"desc": "Discord.js is a powerful node.js module that allows you to interact with the Discord API very easily.",
 			"url": "https://discord.js.org/#/",
-			"tags": ["🎓 gevorderd", "💬 discord"]
+			"tags": ["🎓 gevorderd", "💬 discord", "📄 documentatie"]
 		},
 		{
 			"title": "discord.js (Guide)",
 			"desc": "Imagine a guide... that explores the many possibilities for your discord.js bot.",
 			"url": "https://discordjs.guide/#before-you-begin",
-			"tags": ["🎓 gevorderd", "🛠️ tools", "💬 discord"]
+			"tags": ["🎓 gevorderd", "💬 discord", "📄 documentatie"]
 		},
 		{
 			"title": "Node.js",
 			"desc": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
 			"url": "https://nodejs.org/",
-			"tags": ["🛠️ tools"]
+			"tags": ["🛠️ tools", "🏆 digiproved"]
 		},
 		{
 			"title": "Screeps",
 			"desc": "A strategy sandbox MMO game with a persistent open world where you play by writing JavaScripts to control your units. They live within the game and operate autonomously even while you are offline!",
 			"url": "https://screeps.com/",
-			"tags": ["🎓 gevorderd", "🎓 gevorderd"]
+			"tags": ["🎓 gevorderd"]
 		},
 		{
 			"title": "Scrimba",
 			"desc": "Scrimba is a fun and fast way of learning to code! Our interactive courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more.",
-			"url": "https://scrimba.com/",
-			"tags": ["📚 beginner", "🏆 digiproved"]
+			"url": "https://scrimba.com/allcourses?topic=javascript&price=free",
+			"tags": ["📚 beginner", "🎓 gevorderd", "🏆 digiproved", "📺 video"]
 		},
 		{
 			"title": "Bitburner",
@@ -82,13 +77,13 @@
 			"title": "Phaser",
 			"desc": "Desktop and Mobile HTML5 game framework. A fast, free and fun open source framework for Canvas and WebGL powered browser games.",
 			"url": "https://phaser.io/",
-			"tags": ["📚 beginner", "🚀 phaser"]
+			"tags": ["📚 beginner", "🎓 gevorderd", "🚀 phaser"]
 		},
 		{
 			"title": "Dev Launchers",
 			"desc": "We build world-changing software while preparing people to thrive in technical careers",
 			"url": "https://devlaunchers.com/",
-			"tags": ["📚 beginner", "🚀 phaser"]
+			"tags": ["📚 beginner", "🎓 gevorderd", "🚀 phaser"]
 		},
 		{
 			"title": "WarriorJS",
@@ -106,13 +101,13 @@
 			"title": "Learn Vanilla JS",
 			"desc": "A vanilla JS roadmap, along with learning resources and project ideas to help you get started.",
 			"url": "https://learnvanillajs.com/",
-			"tags": []
+			"tags": ["📚 beginner", "🎓 gevorderd"]
 		},
 		{
 			"title": "Javascript Info",
 			"desc": "How it's done now. From the basics to advanced topics with simple, but detailed explanations.",
 			"url": "https://javascript.info/",
-			"tags": ["📚 beginner", "🎓 gevorderd", "🎓 gevorderd"]
+			"tags": ["📚 beginner", "🎓 gevorderd"]
 		},
 		{
 			"title": "Eloquent Javascript",
@@ -124,13 +119,13 @@
 			"title": "MDN Web Docs",
 			"desc": "Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.",
 			"url": "https://developer.mozilla.org/en-US/",
-			"tags": ["🏆 digiproved", "📚 beginner"]
+			"tags": ["🏆 digiproved", "📚 beginner", "📄 documentatie"]
 		},
 		{
 			"title": "You Might Not Need jQuery",
 			"desc": "jQuery and its cousins are great, and by all means use them if it makes it easier to develop your application. If you're developing a library on the other hand, please take a moment to consider if you actually need jQuery as a dependency.",
 			"url": "http://youmightnotneedjquery.com/",
-			"tags": ["📚 beginner"]
+			"tags": ["🎓 gevorderd"]
 		},
 		{
 			"title": "BundlePhobia",
@@ -142,31 +137,37 @@
 			"title": "The Net Ninja",
 			"desc": "Free YouTube tutorials on modern JavaScript (beginner to advanced), Node.js, React, Vue.js, Firebase, MongoDB, Plus loads more...",
 			"url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists",
-			"tags": ["📚 beginner"]
+			"tags": ["📚 beginner", "🎓 gevorderd", "📺 video"]
 		},
 		{
 			"title": "Javascript Weekly",
 			"desc": "A free, once–weekly email roundup of JavaScript news and articles.",
 			"url": "https://javascriptweekly.com/",
-			"tags": []
+			"tags": ["🛠️ tools"]
 		},
 		{
 			"title": "Learn JavaScript Online",
 			"desc": "The easiest way to learn & practice modern JavaScript",
 			"url": "https://learnjavascript.online/",
-			"tags": []
+			"tags": ["📚 beginner", "🎓 gevorderd"]
 		},
 		{
 			"title": "Code to go",
 			"desc": "Find up to date snippets for common JavaScript use cases",
 			"url": "https://codetogo.io/",
-			"tags": ["🎓 gevorderd"]
+			"tags": ["📚 beginner", "🎓 gevorderd", "🛠️ tools"]
 		},
 		{
 			"title": "JavaScript Questions",
 			"desc": "A curated list of JavaScript questions from basic to advanced to either refresh your knowledge or prepare for job interviews. Updated weekly with new questions and available in several languages.",
 			"url": "https://github.com/lydiahallie/javascript-questions",
-			"tags": ["🎓 gevorderd"]
+			"tags": ["📚 beginner", "🎓 gevorderd", "🛠️ tools"]
+		},
+		{
+			"title": "The Odin Project",
+			"desc": "The Odin Project is a free online curriculum for learning web development with HTML, CSS, JavaScript, Ruby, and Ruby on Rails.",
+			"url": "https://www.theodinproject.com/",
+			"tags": ["📚 beginner", "🎓 gevorderd"]
 		}
 	]
 }

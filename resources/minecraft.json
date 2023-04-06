@@ -21,7 +21,7 @@
 			"title": "modrinth",
 			"desc": "Find enjoyable, quality content through our open-source modding platform built for the community. Create stuff, get paidWIP, and deploy your project with our fully documented API!",
 			"url": "https://modrinth.com/",
-			"tags": ["🛠️ tools", "🚧 mods"]
+			"tags": ["🛠️ tools", "🚧 mods", "🏆 digiproved"]
 		},
 		{
 			"title": "Planet Minecraft",
@@ -33,13 +33,13 @@
 			"title": "Code a Minecraft Hacked Client",
 			"desc": "Have you ever wanted to make your own Minecraft cheats? This is definitely the tutorial for you, because I'm going deeper than any other tutorial out there to teach you the core concepts of a client.",
 			"url": "https://www.youtube.com/playlist?list=PLhgpmtS-kfPfoXwj-LlgavSXr3AoTnZ34",
-			"tags": ["🎓 gevorderd"]
+			"tags": ["🎓 gevorderd", "🚧 mods"]
 		},
 		{
 			"title": "Spigot Plugin Development",
 			"desc": "The best Spigot plugin development tutorials on the internet.",
 			"url": "https://www.youtube.com/playlist?list=PLfu_Bpi_zcDNEKmR82hnbv9UxQ16nUBF7",
-			"tags": ["📚 beginner", "🏆 digiproved", "🎓 gevorderd"]
+			"tags": ["📚 beginner", "🏆 digiproved", "🎓 gevorderd", "🚧 mods"]
 		},
 		{
 			"title": "Fabric",
@@ -69,7 +69,7 @@
 			"title": "Nova Skin",
 			"desc": "Minecraft Player Skin Editor, Texture Packs & Wallpaper Creator.",
 			"url": "https://minecraft.novaskin.me/",
-			"tags": ["📚 beginner"]
+			"tags": ["📚 beginner", "🛠️ tools"]
 		},
 		{
 			"title": "Minecraft Education Edition",
@@ -81,7 +81,7 @@
 			"title": "LiveOverflow",
 			"desc": "just a wannabe hacker... making videos about various IT security topics and participating in hacking competitions.",
 			"url": "https://www.youtube.com/c/LiveOverflow/videos",
-			"tags": ["📺 video"]
+			"tags": ["📺 video", "📚 beginner", "🎓 gevorderd"]
 		}
 	]
 }

@@ -6,26 +6,22 @@
 		"🧀 Nederlands",
 		"📺 Video",
 		"📚 Beginner",
-		"🎓 Gevorderd"
+		"🎓 Gevorderd",
+		"📄 Documentatie",
+		"🛠️ Tools"
 	],
 	"resources": [
 		{
 			"title": "Frontend Mentor",
 			"desc": "Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.  ",
 			"url": "https://www.frontendmentor.io/",
-			"tags": ["📚 beginner", "🎓 gevorderd", "🎓 gevorderd"]
+			"tags": ["🎓 gevorderd"]
 		},
 		{
 			"title": "HTML Elements",
 			"desc": "This page lists all the HTML elements, which are created using tags.",
 			"url": "https://developer.mozilla.org/docs/Web/HTML/Element",
-			"tags": []
-		},
-		{
-			"title": "Learn X in Y Minutes: Scenic Programming Language Tours",
-			"desc": "Take a whirlwind tour of your next favorite language. Community-driven! Algorithms & Data Structures, Languages, ...",
-			"url": "https://learnxinyminutes.com/",
-			"tags": ["🎓 gevorderd"]
+			"tags": ["📄 documentatie"]
 		},
 		{
 			"title": "Code Café",
@@ -49,13 +45,19 @@
 			"title": "Markup validator",
 			"desc": "This tool is checking your markup if it complies with the specification and will show you possible errors.",
 			"url": "https://validator.w3.org/nu/",
-			"tags": []
+			"tags": ["🛠️ tools"]
 		},
 		{
 			"title": "Scrimba",
 			"desc": "Scrimba is a fun and fast way of learning to code! Our interactive courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more.",
-			"url": "https://scrimba.com/",
-			"tags": ["📚 beginner", "🏆 digiproved"]
+			"url": "https://scrimba.com/allcourses?topic=html&price=free",
+			"tags": ["📚 beginner", "🏆 digiproved", "📺 video"]
+		},
+		{
+			"title": "The Odin Project",
+			"desc": "The Odin Project is a free online curriculum for learning web development with HTML, CSS, JavaScript, Ruby, and Ruby on Rails.",
+			"url": "https://www.theodinproject.com/",
+			"tags": ["📚 beginner", "🎓 gevorderd"]
 		}
 	]
 }

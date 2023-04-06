@@ -21,19 +21,19 @@
 			"title": "Programiz",
 			"desc": "C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on.",
 			"url": "https://www.programiz.com/cpp-programming",
-			"tags": ["📚 beginner", "🏆 digiproved"]
+			"tags": ["📚 beginner", "🎓 gevorderd", "🏆 digiproved"]
 		},
 		{
 			"title": "Tinkercad",
 			"desc": "Tinkercad is a free web app for 3D design, electronics, and coding, trusted by over 50 million people around the world.",
-			"url": "https://www.tinkercad.com/",
-			"tags": ["🎓 gevorderd", "🛠️ tools", "🤖 arduino"]
+			"url": "https://www.tinkercad.com/circuits",
+			"tags": ["🎓 gevorderd", "🛠️ tools", "🤖 arduino", "🏆 digiproved"]
 		},
 		{
 			"title": "Arduino Cloud",
 			"desc": "The Arduino IoT Cloud is a online platform that makes it easy for you to create, deploy and monitor IoT projects.",
 			"url": "https://cloud.arduino.cc/",
-			"tags": ["📚 beginner", "🏆 digiproved", "🤖 arduino"]
+			"tags": ["📚 beginner", "🎓 gevorderd", "🏆 digiproved", "🤖 arduino"]
 		},
 		{
 			"title": "Codecademy",

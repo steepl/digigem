@@ -8,50 +8,45 @@
 		"📚 Beginner",
 		"🎓 Gevorderd",
 		"🔬 Data Science",
-		"🛠️ Tools"
+		"🛠️ Tools",
+		"📄 Documentatie"
 	],
 	"resources": [
 		{
 			"title": "Code Café",
 			"desc": "Leer programmeren en maak leuke projecten.",
 			"url": "https://www.youtube.com/c/CodeCaf%C3%A9/playlists",
-			"tags": ["🧀 nederlands", "📚 beginner", "🏆 digiproved"]
-		},
-		{
-			"title": "Learn X in Y Minutes: Scenic Programming Language Tours",
-			"desc": "Take a whirlwind tour of your next favorite language. Community-driven! Algorithms & Data Structures, Languages, ...",
-			"url": "https://learnxinyminutes.com/",
-			"tags": ["🎓 gevorderd"]
+			"tags": ["🧀 nederlands", "📚 beginner", "🏆 digiproved", "📺 video"]
 		},
 		{
 			"title": "5 Mini Python Projects",
 			"desc": "Welcome back to another video! In this video, I will be showing 5 mini python projects for beginners.",
 			"url": "https://www.youtube.com/watch?v=DLn3jOsNRVE",
-			"tags": ["🏆 digiproved", "📚 beginner"]
+			"tags": ["🏆 digiproved", "📚 beginner", "📺 video"]
 		},
 		{
 			"title": "Python Cheatsheet",
 			"desc": "Anyone can forget how to make character classes for a regex, slice a list or do a for loop. This cheat sheet tries to provide a basic reference for beginner and advanced developers, lower the entry barrier for newcomers and help veterans refresh the old tricks.",
 			"url": "http://pythoncheatsheet.org/",
-			"tags": ["🏆 digiproved", "📚 beginner"]
+			"tags": ["🏆 digiproved", "📚 beginner", "📄 documentatie"]
 		},
 		{
 			"title": "Python GUIS",
 			"desc": "This PyQt6 tutorial shows you how to use Python3 and Qt to create GUI apps on Windows, Mac and Linux. Simple GUIs to full applications.  Want to create Python GUIs? Here is everything you need to go from simple UIs to complete apps with PyQt6.",
 			"url": "http://pythonguis.com/",
-			"tags": []
+			"tags": ["🎓 gevorderd"]
 		},
 		{
 			"title": "Python",
 			"desc": "The official home of the Python Programming Language. Python is a programming language that lets you work quickly and integrate systems more effectively.",
 			"url": "https://www.python.org/",
-			"tags": []
+			"tags": ["🛠️ tools"]
 		},
 		{
 			"title": "The Hitchhiker’s Guide to Python!",
 			"desc": "This is a living, breathing guide. This handcrafted guide exists to provide both novice and expert Python developers a best practice handbook to the installation, configuration, and usage of Python on a daily basis.",
 			"url": "https://docs.python-guide.org/",
-			"tags": []
+			"tags": ["📚 beginner", "🎓 gevorderd", "🏆 digiproved"]
 		},
 		{
 			"title": "Pypi",
@@ -63,13 +58,13 @@
 			"title": "A Byte of Python",
 			"desc": "If you like real books ... A complete set of documentation that closely resembles the typesetting of a real book.",
 			"url": "https://python.swaroopch.com/",
-			"tags": ["🎓 gevorderd"]
+			"tags": ["🎓 gevorderd", "📄 documentatie"]
 		},
 		{
 			"title": "Python Morsels",
 			"desc": "Write better Python code in 30 minutes each week",
 			"url": "https://www.pythonmorsels.com/",
-			"tags": []
+			"tags": ["🎓 gevorderd"]
 		},
 		{
 			"title": "Programiz",
@@ -105,7 +100,7 @@
 			"title": "Matplotlib",
 			"desc": "Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.",
 			"url": "https://matplotlib.org/",
-			"tags": []
+			"tags": ["🛠️ tools"]
 		}
 	]
 }
