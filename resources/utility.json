@@ -1,163 +1,177 @@
 {
-  "title": "Utility",
-  "slug": "/utility",
-  "filterTags": ["Playground ⌨️", "Git 📑", "API", "JSON"]  ,
-  "resources": [
-    {
-      "title": "The Algorithms",
-      "desc": "Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language.",
-      "url": "https://the-algorithms.com/",
-      "tags": ["open source", "intermediate", "advanced", "examples"]
-    },
-    {
-      "title": "JSON Generator",
-      "desc": "Random JSON generator for your project - because debugging without data, does not make sense!",
-      "url": "https://www.json-generator.com",
-      "tags": ["json", "interactive", "export", "download"]
-    },
-    {
-      "title": "Git and Git flow cheatsheet",
-      "desc": "Git cheat sheet saves you from learning all the commands by heart.",
-      "url": "https://github.com/arslanbilal/git-cheat-sheet#readme",
-      "tags": ["git 📑", "reference", "common", "start", "flowchart"]
-    },
-    {
-      "title": "snippet generator",
-      "desc": "Create your own snippets for VSCode, Sublime or Atom using this generator. No need to format the snippet yourself",
-      "url": "https://snippet-generator.app/",
-      "tags": ["interactive", "share", "patterns"]
-    },
-    {
-      "title": "Oh Shit, Git!?!",
-      "desc": "Git is hard: screwing up is easy, and figuring out how to fix your mistakes is fucking impossible. Learn from our mistakes.",
-      "url": "https://ohshitgit.com/",
-      "tags": ["git 📑", "intermediate", "reference"]
-    },
-    {
-      "title": "gitignore.io",
-      "desc": "Create usefull .gitignore files for your projects.",
-      "url": "https://www.gitignore.io",
-      "tags": ["git 📑", "video", "tutorial", "docs"]
-    },
-    {
-      "title": "NASA APIs",
-      "desc": "Welcome to the NASA API portal. The objective of this site is to make NASA data, including imagery, eminently accessible to application developers. The api.nasa.gov catalog is growing.",
-      "url": "https://api.nasa.gov",
-      "tags": ["api", "images", "weather", "space", "satellite"]
-    },
-    {
-      "title": "PokéAPI",
-      "desc": "The RESTful Pokémon API",
-      "url": "https://pokeapi.co",
-      "tags": ["api", "game", "docs", "abilities", "species"]
-    },
-    {
-      "title": "quicktype",
-      "desc": "Generate types and serializers from JSON.",
-      "url": "https://quicktype.io",
-      "tags": ["json", "extention", "interactive", "export", "link"]
-    },
-    {
-      "title": "Decoders/Encoders",
-      "desc": "Decode, encode and hash any string quickly.",
-      "url": "https://emn178.github.io/online-tools",
-      "tags": ["links", "encryption", "decryption", "html"]
-    },
-    {
-      "title": "Favicon generator. For real.",
-      "desc": "A favicon generator for all browsers and platforms.",
-      "url": "https://realfavicongenerator.net",
-      "tags": ["image", "convert", "feedback"]
-    },
-    {
-      "title": "Replit",
-      "desc": "Run code live in your browser. Write and run code in 50+ languages online with Replit, a powerful IDE, compiler, & interpreter.",
-      "url": "https://replit.com/",
-      "tags": ["playground ⌨️"]
-    },
-    {
-      "title": "JSFiddle",
-      "desc": "JSFiddle is for: Demos for docs, Bug reporting (test-case) for Github Issues, Live code collaboration, Code snippets hosting for free!",
-      "url": "https://jsfiddle.net",
-      "tags": ["interactive", "collaborate", "store", "linter", "playground ⌨️"]
-    },
-    {
-      "title": "CodePen",
-      "desc": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets.",
-      "url": "https://codepen.io/",
-      "tags": ["editor", "share", "testing", "blog", "playground ⌨️"]
-    },
-    {
-      "title": "Gifless",
-      "desc": "Create emoji and text gifs in seconds",
-      "url": "https://gifless.herokuapp.com/",
-      "tags": ["interactive", "download", "size"]
-    },
-    {
-      "title": "Learn Git",
-      "desc": "Become a git guru - a tutorial series by Atlassian.",
-      "url": "https://www.atlassian.com/git/tutorials",
-      "tags": ["git 📑", "beginner", "tips", "newsletter", "setup"]
-    },
-    {
-      "title": "Git from the inside out",
-      "desc": "This essay explains how Git works. It assumes you understand Git well enough to use it to version control your projects.",
-      "url": "https://codewords.recurse.com/issues/two/git-from-the-inside-out",
-      "tags": ["git 📑", "graph", "commits", "branching", "merging"]
-    },
-    {
-      "title": "List of Public APIs",
-      "desc": "A collective list of free APIs for use in software and web development.",
-      "url": "https://github.com/public-apis/public-apis",
-      "tags": ["api", "global", "authentication", "https"]
-    },
-    {
-      "title": "Carbon",
-      "desc": "Create and share beautiful images of your source code.",
-      "url": "https://carbon.now.sh",
-      "tags": ["Digiproved 🤙", "export", "tweet", "themes", "png", "svg"]
-    },
-    {
-      "title": "Ngrok",
-      "desc": "Secure introspectable tunnels to localhost.",
-      "url": "https://ngrok.com/",
-      "tags": ["inspector", "webhook", "preview", "url"]
-    },
-    {
-      "title": "Mailhog",
-      "desc": "Web and API based SMTP testing.",
-      "url": "https://github.com/mailhog/MailHog",
-      "tags": ["easy", "libraries", "web ui"]
-    },
-    {
-      "title": "git-history-editor",
-      "desc": "Messed up some of your commits? Make it undone",
-      "url": "https://bokub.github.io/git-history-editor/",
-      "tags": ["git", "import", "export", "author", "messages"]
-    },
-    {
-      "title": "Jamstack.org",
-      "desc": "What is the Jamstack? Why use the Jamstack? How do I get started? Learn what the Jamstack is all about and why it's the best approach for building faster, more secure websites.",
-      "url": "https://jamstack.org/",
-      "tags": ["jamstack"]
-    },
-    {
-      "title": "CodeSandbox.io",
-      "desc": "CodeSandbox is an online code editor with a focus on creating and sharing web application projects",
-      "url": "https://codesandbox.io/",
-      "tags": ["development", "ide","editor", "share", "testing", "playground ⌨️"]
-    },
-    {
-      "title": "Hoppscotch",
-      "desc": "The Hoppscotch API request builder helps you create your requests faster, saving you precious time on your development.",
-      "url": "https://hoppscotch.io/",
-      "tags": ["testing", "api"]
-    },
-    {
-      "title": "NoPaste",
-      "desc": "A privacy-focused service where you can paste and share any piece of code. Similar to Pastebin, except the service stores nothing",
-      "url": "https://nopaste.ml/",
-      "tags": ["paste", "url", "interactive", "share", "privacy"]
-    }
-  ]
+	"title": "Utility",
+	"slug": "/utility",
+	"filterTags": [
+		"🏆 DigiProved",
+		"🧀 Nederlands",
+		"📺 Video",
+		"📚 Beginner",
+		"🎓 Gevorderd",
+		"📄 Documentatie",
+		"🛠️ Tools"
+	],
+	"resources": [
+		{
+			"title": "Learn X in Y Minutes: Scenic Programming Language Tours",
+			"desc": "Take a whirlwind tour of your next favorite language. Community-driven! Algorithms & Data Structures, Languages, ...",
+			"url": "https://learnxinyminutes.com/",
+			"tags": ["🎓 gevorderd", "📄 documentatie"]
+		},
+		{
+			"title": "The Algorithms",
+			"desc": "Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language.",
+			"url": "https://the-algorithms.com/",
+			"tags": ["🎓 gevorderd"]
+		},
+		{
+			"title": "JSON Generator",
+			"desc": "Random JSON generator for your project - because debugging without data, does not make sense!",
+			"url": "https://www.json-generator.com",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "Git and Git flow cheatsheet",
+			"desc": "Git cheat sheet saves you from learning all the commands by heart.",
+			"url": "https://github.com/arslanbilal/git-cheat-sheet#readme",
+			"tags": ["📚 beginner", "🎓 gevorderd", "📄 documentatie"]
+		},
+		{
+			"title": "snippet generator",
+			"desc": "Create your own snippets for VSCode, Sublime or Atom using this generator. No need to format the snippet yourself",
+			"url": "https://snippet-generator.app/",
+			"tags": ["🛠️ tools", "🎓 gevorderd"]
+		},
+		{
+			"title": "Oh Shit, Git!?!",
+			"desc": "Git is hard: screwing up is easy, and figuring out how to fix your mistakes is fucking impossible. Learn from our mistakes.",
+			"url": "https://ohshitgit.com/",
+			"tags": ["🎓 gevorderd"]
+		},
+		{
+			"title": "gitignore.io",
+			"desc": "Create usefull .gitignore files for your projects.",
+			"url": "https://www.gitignore.io",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "NASA APIs",
+			"desc": "Welcome to the NASA API portal. The objective of this site is to make NASA data, including imagery, eminently accessible to application developers. The api.nasa.gov catalog is growing.",
+			"url": "https://api.nasa.gov",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "PokéAPI",
+			"desc": "The RESTful Pokémon API",
+			"url": "https://pokeapi.co",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "quicktype",
+			"desc": "Generate types and serializers from JSON.",
+			"url": "https://quicktype.io",
+			"tags": ["🛠️ tools", "🎓 gevorderd"]
+		},
+		{
+			"title": "Decoders/Encoders",
+			"desc": "Decode, encode and hash any string quickly.",
+			"url": "https://emn178.github.io/online-tools",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "Favicon generator. For real.",
+			"desc": "A favicon generator for all browsers and platforms.",
+			"url": "https://realfavicongenerator.net",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "Replit",
+			"desc": "Run code live in your browser. Write and run code in 50+ languages online with Replit, a powerful IDE, compiler, & interpreter.",
+			"url": "https://replit.com/",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "JSFiddle",
+			"desc": "JSFiddle is for: Demos for docs, Bug reporting (test-case) for Github Issues, Live code collaboration, Code snippets hosting for free!",
+			"url": "https://jsfiddle.net",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "CodePen",
+			"desc": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets.",
+			"url": "https://codepen.io/",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "Gifless",
+			"desc": "Create emoji and text gifs in seconds",
+			"url": "https://gifless.herokuapp.com/",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "Learn Git",
+			"desc": "Become a git guru - a tutorial series by Atlassian.",
+			"url": "https://www.atlassian.com/git/tutorials",
+			"tags": ["📚 beginner"]
+		},
+		{
+			"title": "Git from the inside out",
+			"desc": "This essay explains how Git works. It assumes you understand Git well enough to use it to version control your projects.",
+			"url": "https://codewords.recurse.com/issues/two/git-from-the-inside-out",
+			"tags": ["🎓 gevorderd"]
+		},
+		{
+			"title": "List of Public APIs",
+			"desc": "A collective list of free APIs for use in software and web development.",
+			"url": "https://github.com/public-apis/public-apis",
+			"tags": ["🛠️ tools", "📄 documentatie"]
+		},
+		{
+			"title": "Carbon",
+			"desc": "Create and share beautiful images of your source code.",
+			"url": "https://carbon.now.sh",
+			"tags": ["🏆 digiproved", "🛠️ tools"]
+		},
+		{
+			"title": "Ngrok",
+			"desc": "Secure introspectable tunnels to localhost.",
+			"url": "https://ngrok.com/",
+			"tags": ["🛠️ tools", "🎓 gevorderd"]
+		},
+		{
+			"title": "Mailhog",
+			"desc": "Web and API based SMTP testing.",
+			"url": "https://github.com/mailhog/MailHog",
+			"tags": ["🛠️ tools", "🎓 gevorderd"]
+		},
+		{
+			"title": "git-history-editor",
+			"desc": "Messed up some of your commits? Make it undone",
+			"url": "https://bokub.github.io/git-history-editor/",
+			"tags": ["🛠️ tools", "🎓 gevorderd"]
+		},
+		{
+			"title": "Jamstack.org",
+			"desc": "What is the Jamstack? Why use the Jamstack? How do I get started? Learn what the Jamstack is all about and why it's the best approach for building faster, more secure websites.",
+			"url": "https://jamstack.org/",
+			"tags": ["🎓 gevorderd"]
+		},
+		{
+			"title": "CodeSandbox.io",
+			"desc": "CodeSandbox is an online code editor with a focus on creating and sharing web application projects",
+			"url": "https://codesandbox.io/",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "Hoppscotch",
+			"desc": "The Hoppscotch API request builder helps you create your requests faster, saving you precious time on your development.",
+			"url": "https://hoppscotch.io/",
+			"tags": ["🛠️ tools", "🎓 gevorderd"]
+		},
+		{
+			"title": "NoPaste",
+			"desc": "A privacy-focused service where you can paste and share any piece of code. Similar to Pastebin, except the service stores nothing",
+			"url": "https://nopaste.ml/",
+			"tags": ["🛠️ tools", "🎓 gevorderd"]
+		}
+	]
 }

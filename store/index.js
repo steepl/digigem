@@ -1,7 +1,3 @@
-export const state = () => ({
+export const state = () => ({});
 
-})
-
-export const mutations = {
-
-}
+export const mutations = {};

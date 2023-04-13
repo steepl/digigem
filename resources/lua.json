@@ -1,25 +1,32 @@
 {
-    "title": "Lua",
-    "slug": "/lua",
-    "filterTags": ["DigiProved 🤙", "Game Development 🎮", "Beginner", "Intermediate"],
-    "resources": [
-      {
-        "title": "LIKO-12",
-        "desc": "An open-source fantasy computer. Available on Windows, Linux, OS X and Android. Completely written in Lua, powered by LÖVE and open-sourced since the first day",
-        "url": "https://liko-12.github.io/legacy-2/#/",
-        "tags": ["beginner", "game development 🎮"]
-      },
-      {
-        "title": "Recreating Zelda (Legend of Lua)",
-        "desc": "A game-development series about creating a Zelda game from scratch. This series utilizes the game framework LÖVE (Love2D) and the programming language Lua.",
-        "url": "https://www.youtube.com/playlist?list=PLqPLyUreLV8D3Ckd_9UFNvEpg4xCvbL1a",
-        "tags": ["game development 🎮"]
-      },
-      {
-        "title": "Love2D Basics",
-        "desc": "Quick setup and installation guide for Love2D, process explained for both Windows and Mac.",
-        "url": "https://www.youtube.com/playlist?list=PLqPLyUreLV8DrLcLvQQ64Uz_h_JGLgGg2",
-        "tags": ["game development 🎮"]
-      }
-    ]
-  }
+	"title": "Lua",
+	"slug": "/lua",
+	"filterTags": [
+		"🏆 DigiProved",
+		"🧀 Nederlands",
+		"📺 Video",
+		"📚 Beginner",
+		"🎓 Gevorderd",
+		"🎮 Game Development"
+	],
+	"resources": [
+		{
+			"title": "LIKO-12",
+			"desc": "An open-source fantasy computer. Available on Windows, Linux, OS X and Android. Completely written in Lua, powered by LÖVE and open-sourced since the first day",
+			"url": "https://liko-12.github.io/legacy-2/#/",
+			"tags": ["📚 beginner"]
+		},
+		{
+			"title": "Recreating Zelda (Legend of Lua)",
+			"desc": "A game-development series about creating a Zelda game from scratch. This series utilizes the game framework LÖVE (Love2D) and the programming language Lua.",
+			"url": "https://www.youtube.com/playlist?list=PLqPLyUreLV8D3Ckd_9UFNvEpg4xCvbL1a",
+			"tags": ["🎓 gevorderd", "🎮 game development", "📺 video"]
+		},
+		{
+			"title": "Love2D Basics",
+			"desc": "Quick setup and installation guide for Love2D, process explained for both Windows and Mac.",
+			"url": "https://www.youtube.com/playlist?list=PLqPLyUreLV8DrLcLvQQ64Uz_h_JGLgGg2",
+			"tags": ["🎮 game development", "📚 beginner", "📺 video"]
+		}
+	]
+}

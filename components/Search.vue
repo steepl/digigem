@@ -1,71 +1,57 @@
-<template lang="pug">
-  input.search(v-model="searchInput" @keydown.enter="onEnter" type="text" placeholder="Zoek...")
+<template>
+	<input
+		v-model="searchInput"
+		class="search rounded-lg border-none outline-none text-white bg-[#131212] shadow-md py-4 px-8"
+		type="text"
+		placeholder="Zoeken..."
+		@keydown.enter="onEnter"
+	/>
 </template>
 
 <script>
-import * as R from 'ramda'
-import { isNotEmpty } from '../utils/pure'
+import * as R from "ramda";
+import { isNotEmpty } from "../utils/pure";
 
 export default {
-  data() {
-    return {
-      searchInput: '',
-      searchPath: '/search',
-    }
-  },
-  watch: {
-    searchInput(input) {
-      const words = R.filter(isNotEmpty, R.split(' ', input))
-      const tags = R.filter(this.isTag, words)
-      const titles = R.filter(R.compose(R.not, this.isTag), words)
+	data() {
+		return {
+			searchInput: "",
+			searchPath: "/search",
+		};
+	},
+	watch: {
+		searchInput(input) {
+			const words = R.filter(isNotEmpty, R.split(" ", input));
+			const titles = R.filter(R.compose(R.not, this.isTag), words);
 
-      const searchParams = new URLSearchParams()
-      if (isNotEmpty(titles))
-        searchParams.append('keywords', titles)
-      if (isNotEmpty(tags))
-        searchParams.append('tags', R.map(this.removeFirstChar, tags))
+			const searchParams = new URLSearchParams();
+			if (isNotEmpty(titles)) searchParams.append("keywords", titles);
 
-      this.$router.push(this.searchPath + '?' + searchParams.toString())
-    },
-  },
-  mounted() {
-    let keywords = this.$route.query.keywords || ''
-    keywords = keywords.split(',').join(' ')
+			this.$router.push(this.searchPath + "?" + searchParams.toString());
+		},
+	},
+	mounted() {
+		let keywords = this.$route.query.keywords || "";
+		keywords = keywords.split(",").join(" ");
 
-    let tags = this.$route.query.tags || ''
-    tags = R.filter(this.isTag, tags.split(',')).map(tag => `#${tag}`).join(' ')
+		this.searchInput = `${keywords}`.trim();
+	},
+	methods: {
+		// isTag :: String -> Bool
+		isTag: R.startsWith("#"),
 
-    this.searchInput = `${tags} ${keywords}`.trim()
-  },
-  methods: {
-    // isTag :: String -> Bool
-    isTag: R.startsWith('#'),
-
-    // removeFirstChar :: String -> String
-    removeFirstChar: R.compose(
-      R.join(''),
-      R.adjust(0, () => ''),
-    ),
-    onEnter() {
-      const searchParams = new URLSearchParams({ ...this.$route.query, enter: true })
-      this.$router.push(this.searchPath + '?' + searchParams.toString())
-    },
-  },
-}
+		// removeFirstChar :: String -> String
+		removeFirstChar: R.compose(
+			R.join(""),
+			R.adjust(0, () => "")
+		),
+		onEnter() {
+			const searchParams = new URLSearchParams({
+				...this.$route.query,
+				enter: true,
+			});
+			this.$router.push(this.searchPath + "?" + searchParams.toString());
+		},
+	},
+};
 </script>
-
-<style lang="scss">
-input {
-  font-family: "Montserrat";
-  padding: .5rem 1.5rem .5rem 1.5rem;
-  border-radius: .3rem;
-  border: none;
-  background: #353535;
-  font-size: 14px;
-  color: #fff;
-
-  &:focus {
-    outline:none;
-  }
-}
-</style>

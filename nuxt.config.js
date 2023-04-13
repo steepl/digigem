@@ -1,73 +1,84 @@
-import pkg from './package'
-import resources from './resources/'
+import pkg from "./package";
+import resources from "./resources/";
 
 export default {
+	// Global page headers: https://go.nuxtjs.dev/config-head
+	head: {
+		title: "Digigem - Knowledge Base",
+		htmlAttrs: {
+			lang: "en",
+		},
+		meta: [
+			{ charset: "utf-8" },
+			{ name: "viewport", content: "width=device-width, initial-scale=1" },
+			{ hid: "description", name: "description", content: pkg.description },
+			{ name: "format-detection", content: "telephone=no" },
+			{ name: "og:title", content: "Digigem - Knowledge Base" },
+			{ name: "og:description", content: pkg.description },
+			{ name: "og:type", content: "website" },
+			{ name: "og:image", content: "/assets/logo.png" },
+		],
+		link: [
+			{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+			{
+				rel: "stylesheet",
+				href: "https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap",
+			},
+		],
+	},
 
-  vue: {
-    config: {
-      devtools: true,
-    },
-  },
+	// Global CSS: https://go.nuxtjs.dev/config-css
+	css: [
+		// SCSS file in the project
+		"@/assets/css/main.scss",
+	],
 
-  /*
-  ** Headers of the page
-  */
-  head: {
-    htmlAttrs: {
-      lang: 'en',
-    },
-    title: 'Digigem – Resource Base',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description },
-      { hid: 'keywords', name: 'keywords', content: 'css, html, php, server, resources, design, gems, nuxt, javascript, tutorials, development, software, js, vue, seo, rust, sql, databases'},
+	// Generates
+	generate: {
+		routes: resources.map((category) => category.slug),
+	},
 
-      { name: 'robots', content: 'index, follow' },
-      { name: 'distribution', content: 'global'},
+	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+	plugins: [],
 
-      { name:'theme-color', content: '#da532c' },
-      { name: 'msapplication-TileColor', content: '#da532c' },
-      { rel:'manifest', href:'/site.webmanifest' },
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" },
-    ],
-  },
+	// Auto import components: https://go.nuxtjs.dev/config-components
+	components: true,
 
-  /*
-  ** Generate dynamic routes
-  */
-  generate: {
-    routes: resources.map(category => category.slug),
-  },
+	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+	buildModules: [
+		// https://go.nuxtjs.dev/eslint
+		"@nuxtjs/eslint-module",
+		// https://go.nuxtjs.dev/svg
+		"@nuxtjs/svg",
+	],
 
-  /**
-   * Configure ESLint to run on save with hot reloading
-   */
-  build: {
-    extend(config, ctx) {
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/,
-        })
-      }
-    },
-  },
+	// Modules: https://go.nuxtjs.dev/config-modules
+	modules: ["nuxt-clipboard"],
 
-  /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#da532c' },
+	// Build Configuration: https://go.nuxtjs.dev/config-build
+	build: {
+		postcss: {
+			postcssOptions: {
+				plugins: {
+					tailwindcss: {},
+					autoprefixer: {},
+				},
+			},
+		},
+	},
 
-  /*
-  ** Nuxt.js modules
-  */
-  modules: [
-    'nuxt-clipboard2',
-  ],
-}
+	loading: {
+		color: "#fc6e00",
+		height: "5px",
+	},
+
+	layoutTransition: {
+		name: "fade",
+	},
+
+	pageTransition: {
+		name: "fade",
+	},
+
+	target: "static",
+};

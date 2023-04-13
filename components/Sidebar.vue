@@ -1,98 +1,43 @@
-<template lang="pug">
-  aside.nav
-    .sidebar
-      template(v-for='category in categories')
-        nuxt-link(:to='category.slug') {{ category.title }}
-      //- hr
-      //- nuxt-link(to='/glossary') Glossary
+<template>
+	<aside class="nav">
+		<div
+			class="sidebar sticky top-3 grid xs:grid-cols-1 items-center grid-cols-[repeat(auto-fit,_minmax(6rem,_1fr))]"
+		>
+			<template v-for="category in categories">
+				<nuxt-link
+					:key="category.id"
+					class="rounded-md cursor-pointer xs:mr-0 mr-2 mb-4 p-2 font-semibold transition-all duration-200 no-underline hover:no-underline hover:bg-[#FC6E00] hover:text-white xs:-skew-y-6 xs:-skew-x-3 xs:-translate-x-5"
+					:to="category.slug"
+					>{{ category.title }}</nuxt-link
+				>
+			</template>
+		</div>
+	</aside>
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
+import { mapMutations } from "vuex";
 
 export default {
-  data() {
-    return {
-      categories: [{ slug: '', title: '' }],
-    }
-  },
-  computed: {
-    areCardsVisible() {
-      return this.$store.getters['Sidebar/areCardsVisible']
-    },
-  },
-  created() {
-    this.categories = this.$store.getters['data/resources'].map(({ title, slug }) => ({ title, slug }))
-  },
-  methods: {
-    ...mapMutations({
-      toggleCardsVisible: 'Sidebar/toggleCardsVisible',
-    }),
-  },
-}
+	data() {
+		return {
+			categories: [{ slug: "", title: "" }],
+		};
+	},
+	computed: {
+		areCardsVisible() {
+			return this.$store.getters["Sidebar/areCardsVisible"];
+		},
+	},
+	created() {
+		this.categories = this.$store.getters["data/resources"].map(
+			({ title, slug }) => ({ title, slug })
+		);
+	},
+	methods: {
+		...mapMutations({
+			toggleCardsVisible: "Sidebar/toggleCardsVisible",
+		}),
+	},
+};
 </script>
-
-<style lang="scss" scoped>
-.sidebar {
-  position: sticky;
-  top: 10px;
-  display: grid;
-  grid-template-columns: 1fr;
-  font-size: 14px;
-  align-items: center;
-
-  a {
-    margin-bottom: 1rem;
-    transform: skew(-15deg) rotate(-5deg) translate(-5px, 0);
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    font-weight: 600;
-    transition-duration: 0.2s;
-    transition-property: background-color,color;
-    &:hover, &.nuxt-link-exact-active {
-      background-color: #FC6E00;
-      color: #fff;
-      text-decoration: none;
-    }
-  }
-  div {
-    cursor: pointer;
-  }
-  .toggleWrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: min-content;
-    border: 1px;
-    border-color: #FC6E00;
-    border-style: solid;
-    overflow: hidden;
-    margin: 1rem auto;
-  }
-  .viewToggle {
-    padding: .2rem.2rem;
-    color: #409aff;
-  }
-  .active {
-    background-color: #FC6E00;
-    color: #272927;
-  }
-  hr {
-    margin-bottom: 1rem;
-    transform: skew(-15deg) rotate(-5deg) translate(-5px, 0);
-    width: 80%;
-    border-color: #FC6E00;
-  }
-}
-
-@media (max-width: 600px) {
-  .sidebar {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
-
-    a {
-      transform: none;
-    }
-
-    text-align: center;
-  }
-}
-</style>

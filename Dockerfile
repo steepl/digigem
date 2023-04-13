@@ -1,30 +1,31 @@
-FROM node:18-alpine3.15
+FROM node:lts as builder
 
-# create destination directory
-RUN mkdir -p /usr/src/nuxt-app
-WORKDIR /usr/src/nuxt-app
+WORKDIR /app
 
-# update and install dependency
-RUN apk update && apk upgrade
-RUN apk add git
-RUN apk add build-base
-RUN apk add python3
+COPY . .
 
-# copy the app, note .dockerignore
-COPY . /usr/src/nuxt-app/
-RUN yarn
+RUN npm install \
+  --prefer-offline \
+  --frozen-lockfile \
+  --non-interactive \
+  --production=false
 
-# build necessary, even if no static files are needed,
-# since it builds the server as well
-RUN yarn build-legacy
+RUN npm run build
 
-# expose 5000 on container
+RUN rm -rf node_modules && \
+  NODE_ENV=production npm install \
+  --prefer-offline \
+  --pure-lockfile \
+  --non-interactive \
+  --production=true
+
+FROM node:lts
+
+WORKDIR /app
+
+COPY --from=builder /app  .
+
+ENV HOST 0.0.0.0
 EXPOSE 5000
 
-# set app serving to permissive / assigned
-ENV NUXT_HOST=0.0.0.0
-# set app port
-ENV NUXT_PORT=5000
-
-# start the app
-CMD [ "yarn", "start-legacy" ]
+CMD [ "npm", "start" ]
