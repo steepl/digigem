@@ -10,7 +10,7 @@ RUN npm install \
   --non-interactive \
   --production=false
 
-RUN npm run build
+RUN npm run generate
 
 RUN rm -rf node_modules && \
   NODE_ENV=production npm install \
@@ -19,13 +19,9 @@ RUN rm -rf node_modules && \
   --non-interactive \
   --production=true
 
-FROM node:lts
-
-WORKDIR /app
-
-COPY --from=builder /app  .
-
-ENV HOST 0.0.0.0
 EXPOSE 5000
 
-CMD [ "npm", "start" ]
+ENV NUXT_HOST 0.0.0.0
+ENV NUXT_PORT 5000
+
+CMD [ "npm", "run", "start" ]
