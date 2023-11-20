@@ -28,10 +28,28 @@
 			"tags": ["📚 beginner", "🎓 gevorderd", "🎮 game development", "📺 video"]
 		},
 		{
+			"title": "Code.org",
+			"desc": "Learn today, build a brighter tomorrow. Code.org® is a nonprofit dedicated to expanding access to computer science in schools and increasing participation by young women and students from other underrepresented groups.",
+			"url": "https://code.org",
+			"tags": ["📚 beginner", "🎮 game development"]
+		},
+		{
+			"title": "Scratch For Discord",
+			"desc": "Make your own Discord bot using blocks.",
+			"url": "https://s4d.discodes.xyz",
+			"tags": ["🎓 gevorderd"]
+		},
+		{
 			"title": "Raspberry Pi Foundation",
 			"desc": "Blader door onze gratis codeerspellen, maak een 3D-game in Unity of een racegame in Scratch met een timer om je vrienden uit te dagen!",
 			"url": "https://projects.raspberrypi.org/nl-NL/projects",
 			"tags": ["📚 beginner", "🧀 nederlands"]
+		},
+		{
+			"title": "TurboWarp",
+			"desc": "TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.",
+			"url": "https://turbowarp.org/",
+			"tags": ["📚 beginner", "🎮 game development"]
 		},
 		{
 			"title": "Thinkercad Codeblocks",

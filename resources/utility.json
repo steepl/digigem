@@ -3,14 +3,36 @@
 	"slug": "/utility",
 	"filterTags": [
 		"🏆 DigiProved",
-		"🧀 Nederlands",
-		"📺 Video",
 		"📚 Beginner",
 		"🎓 Gevorderd",
 		"📄 Documentatie",
 		"🛠️ Tools"
 	],
 	"resources": [
+		{
+			"title": "Refactoring Guru",
+			"desc": "Refactoring.Guru makes it easy for you to discover everything you need to know about refactoring, design patterns, SOLID principles, and other smart programming topics.",
+			"url": "https://refactoring.guru/",
+			"tags": ["📄 documentatie"]
+		},
+		{
+			"title": "grep.app",
+			"desc": "Search across a half million git repos",
+			"url": "https://grep.app/",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "Programming Notes for Professionals books",
+			"desc": "Free Programming Books on Android development, C, C#, CSS, HTML5, iOS development, Java, JavaScript, PowerShell, PHP, Python, SQL Sever and more.",
+			"url": "https://goalkicker.com/",
+			"tags": ["📄 documentatie"]
+		},
+		{
+			"title": "DevDocs API Documentation",
+			"desc": "DevDocs combines multiple API documentations in a fast, organized, and searchable interface.",
+			"url": "https://devdocs.io/",
+			"tags": ["🏆 digiproved", "📄 documentatie"]
+		},
 		{
 			"title": "Learn X in Y Minutes: Scenic Programming Language Tours",
 			"desc": "Take a whirlwind tour of your next favorite language. Community-driven! Algorithms & Data Structures, Languages, ...",
@@ -63,7 +85,7 @@
 			"title": "PokéAPI",
 			"desc": "The RESTful Pokémon API",
 			"url": "https://pokeapi.co",
-			"tags": ["🛠️ tools"]
+			"tags": ["🛠️ tools", "🏆 digiproved"]
 		},
 		{
 			"title": "quicktype",
@@ -129,18 +151,12 @@
 			"title": "Carbon",
 			"desc": "Create and share beautiful images of your source code.",
 			"url": "https://carbon.now.sh",
-			"tags": ["🏆 digiproved", "🛠️ tools"]
+			"tags": ["🛠️ tools"]
 		},
 		{
 			"title": "Ngrok",
 			"desc": "Secure introspectable tunnels to localhost.",
 			"url": "https://ngrok.com/",
-			"tags": ["🛠️ tools", "🎓 gevorderd"]
-		},
-		{
-			"title": "Mailhog",
-			"desc": "Web and API based SMTP testing.",
-			"url": "https://github.com/mailhog/MailHog",
 			"tags": ["🛠️ tools", "🎓 gevorderd"]
 		},
 		{

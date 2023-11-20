@@ -61,6 +61,12 @@
 			"tags": ["🎓 gevorderd", "📄 documentatie"]
 		},
 		{
+			"title": "Build a Tetris Clone with Pygame",
+			"desc": "In this series you're going to learn how to make a tetris clone using Pygame which is a Python library for making games.",
+			"url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iurLoO9Mu7GqsKlxEXcf8m",
+			"tags": ["🎓 gevorderd", "📺 video"]
+		},
+		{
 			"title": "Python Morsels",
 			"desc": "Write better Python code in 30 minutes each week",
 			"url": "https://www.pythonmorsels.com/",
@@ -100,6 +106,18 @@
 			"title": "Matplotlib",
 			"desc": "Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.",
 			"url": "https://matplotlib.org/",
+			"tags": ["🛠️ tools"]
+		},
+		{
+			"title": "3 Python Automation Projects - For Beginners",
+			"desc": "Welcome back to another YouTube video! In this video I'm going to be showing you 3 different Python Automation Projects for beginners! These are simple projects that are meant to show you a real world use case of Python!",
+			"url": "https://www.youtube.com/watch?v=Oz3W-LKfafE",
+			"tags": ["📺 video", "📚 beginner", "🏆 digiproved"]
+		},
+		{
+			"title": "Awesome Python",
+			"desc": "A curated list of awesome Python frameworks, libraries, software and resources.",
+			"url": "https://github.com/vinta/awesome-python",
 			"tags": ["🛠️ tools"]
 		}
 	]

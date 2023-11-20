@@ -4,9 +4,7 @@
 	"filterTags": [
 		"🏆 DigiProved",
 		"🧀 Nederlands",
-		"📺 Video",
-		"📚 Beginner",
-		"🎓 Gevorderd"
+		"📚 Beginner"
 	],
 	"resources": [
 		{
@@ -28,12 +26,6 @@
 			"tags": ["📚 beginner", "🧀 nederlands"]
 		},
 		{
-			"title": "MicroBike",
-			"desc": "Turn your micro:bit into a Game Controller.",
-			"url": "https://musab.netlify.app/projects/microbike/",
-			"tags": ["📚 beginner"]
-		},
-		{
 			"title": "micro:bit Projects",
 			"desc": "Tiny, versatile computing from the BBC and the Micro:bit Educational Foundation. Get creative, get connected, get coding. Come explore micro:bit projects!",
 			"url": "https://microbit.hackster.io/",
@@ -43,12 +35,6 @@
 			"title": "Awesome micro:bit",
 			"desc": "A curated list of resources for the BBC micro:bit, a tiny programmable computer designed to make learning and teaching easy and fun!",
 			"url": "https://github.com/carlosperate/awesome-microbit",
-			"tags": ["📚 beginner"]
-		},
-		{
-			"title": "MicroCode",
-			"desc": "MicroCode is an experimental tile-based language and editor for young coders and coders with disabilities on the BBC micro:bit V2 (V1 not supported), inspired by Kodu Game Lab.",
-			"url": "https://makecode.microbit.org/microcode",
 			"tags": ["📚 beginner"]
 		}
 	]

@@ -3,11 +3,9 @@
 	"slug": "/javascript",
 	"filterTags": [
 		"🏆 DigiProved",
-		"🧀 Nederlands",
 		"📺 Video",
 		"📚 Beginner",
 		"🎓 Gevorderd",
-		"🚀 Phaser",
 		"💬 Discord",
 		"🛠️ Tools",
 		"📄 Documentatie"
@@ -36,6 +34,12 @@
 			"desc": "Discord.js is a powerful node.js module that allows you to interact with the Discord API very easily.",
 			"url": "https://discord.js.org/#/",
 			"tags": ["🎓 gevorderd", "💬 discord", "📄 documentatie"]
+		},
+		{
+			"title": "Full stack open",
+			"desc": "Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course will introduce you to modern JavaScript-based web development.",
+			"url": "https://fullstackopen.com/en/",
+			"tags": ["🎓 gevorderd"]
 		},
 		{
 			"title": "discord.js (Guide)",
@@ -72,18 +76,6 @@
 			"desc": "Bitburner is a programming game that allows you to write automation scripts that run whether or not you're in this game. In this series, I try to automate everything in the game.",
 			"url": "https://www.youtube.com/playlist?list=PLH0mcSPXlsBnef6x-GudnO3PDzq4hT5Dl",
 			"tags": ["📚 beginner", "🎓 gevorderd"]
-		},
-		{
-			"title": "Phaser",
-			"desc": "Desktop and Mobile HTML5 game framework. A fast, free and fun open source framework for Canvas and WebGL powered browser games.",
-			"url": "https://phaser.io/",
-			"tags": ["📚 beginner", "🎓 gevorderd", "🚀 phaser"]
-		},
-		{
-			"title": "Dev Launchers",
-			"desc": "We build world-changing software while preparing people to thrive in technical careers",
-			"url": "https://devlaunchers.com/",
-			"tags": ["📚 beginner", "🎓 gevorderd", "🚀 phaser"]
 		},
 		{
 			"title": "WarriorJS",

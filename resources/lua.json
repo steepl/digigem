@@ -3,30 +3,55 @@
 	"slug": "/lua",
 	"filterTags": [
 		"🏆 DigiProved",
-		"🧀 Nederlands",
 		"📺 Video",
+		"🟦 Roblox",
 		"📚 Beginner",
 		"🎓 Gevorderd",
-		"🎮 Game Development"
+		"🎮 Game Development",
+		"📄 Documentatie"
 	],
 	"resources": [
 		{
+			"title": "Introduction to Scripting",
+			"desc": "In this tutorial, you'll learn how to apply a script to parts to make a platform appear and disappear. You can use this in a platforming experience to span a gap, challenging users to time their jumps carefully to get to the other side.",
+			"url": "https://create.roblox.com/docs/tutorials/scripting/basic-scripting/intro-to-scripting",
+			"tags": ["🏆 digiproved", "🟦 roblox", "📚 beginner", "🎮 game development", "📺 video"]
+		},
+		{
+			"title": "Creating a Script",
+			"desc": "This article will cover how to start coding in Roblox, introducing common concepts like scripts, data types, and variables. By the end, you'll be able to type out code that displays messages in Roblox Studio.",
+			"url": "https://create.roblox.com/docs/tutorials/fundamentals/coding-1/creating-a-script",
+			"tags": ["🟦 roblox", "📚 beginner", "🎮 game development", "📄 documentatie"]
+		},
+		{
 			"title": "LIKO-12",
-			"desc": "An open-source fantasy computer. Available on Windows, Linux, OS X and Android. Completely written in Lua, powered by LÖVE and open-sourced since the first day",
+			"desc": "An open-source fantasy computer. Available on Windows, Linux, OS X and Android. Completely written in Lua, powered by LÖVE and open-sourced since the first day.",
 			"url": "https://liko-12.github.io/legacy-2/#/",
-			"tags": ["📚 beginner"]
+			"tags": ["🎓 gevorderd", "🎮 game development"]
 		},
 		{
-			"title": "Recreating Zelda (Legend of Lua)",
-			"desc": "A game-development series about creating a Zelda game from scratch. This series utilizes the game framework LÖVE (Love2D) and the programming language Lua.",
-			"url": "https://www.youtube.com/playlist?list=PLqPLyUreLV8D3Ckd_9UFNvEpg4xCvbL1a",
-			"tags": ["🎓 gevorderd", "🎮 game development", "📺 video"]
+			"title": "CodeCombat Worlds",
+			"desc": "Want to make your own Roblox games but don’t know how to code? Join the adventure of CodeCombat Worlds, where you play to build the skills you need to create your own amazing Roblox games, no experience needed!",
+			"url": "https://www.roblox.com/games/11704713454/CodeCombat-Worlds",
+			"tags": ["🎮 game development", "📚 beginner", "🟦 roblox"]
 		},
 		{
-			"title": "Love2D Basics",
-			"desc": "Quick setup and installation guide for Love2D, process explained for both Windows and Mac.",
-			"url": "https://www.youtube.com/playlist?list=PLqPLyUreLV8DrLcLvQQ64Uz_h_JGLgGg2",
-			"tags": ["🎮 game development", "📚 beginner", "📺 video"]
+			"title": "Game Development with LÖVE 2D and Lua",
+			"desc": "Learn how to create games using LÖVE 2D and Lua. LÖVE is a framework you can use to make 2D games in Lua. It's free, open-source, and works on Windows, Mac OS X, Linux, Android and iOS.",
+			"url": "https://www.classcentral.com/classroom/freecodecamp-game-development-with-loeve-2d-and-lua-full-course-104809",
+			"tags": ["🏆 digiproved", "🎮 game development", "📚 beginner", "📺 video"]
+		},
+		{
+			"title": "Lua Learning",
+			"desc": "Always wanted to learn to code on Roblox? Lua Learning is a place to interactively learn how to create and unlock your imagination.",
+			"url": "https://www.lualearning.org/",
+			"tags": ["🎮 game development", "📚 beginner", "🟦 roblox"]
+		},
+		{
+			"title": "RoBuilder",
+			"desc": "Learn to create awesome Roblox games.",
+			"url": "https://www.youtube.com/@RoBuilder/videos",
+			"tags": ["🎮 game development", "📺 video", "📚 beginner", "🟦 roblox"]
 		}
 	]
 }

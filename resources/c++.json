@@ -3,8 +3,6 @@
 	"slug": "/c++",
 	"filterTags": [
 		"🏆 DigiProved",
-		"🧀 Nederlands",
-		"📺 Video",
 		"📚 Beginner",
 		"🎓 Gevorderd",
 		"🤖 Arduino",
@@ -27,7 +25,7 @@
 			"title": "Tinkercad",
 			"desc": "Tinkercad is a free web app for 3D design, electronics, and coding, trusted by over 50 million people around the world.",
 			"url": "https://www.tinkercad.com/circuits",
-			"tags": ["🎓 gevorderd", "🛠️ tools", "🤖 arduino", "🏆 digiproved"]
+			"tags": ["🎓 gevorderd", "🛠️ tools", "🤖 arduino"]
 		},
 		{
 			"title": "Arduino Cloud",
@@ -39,7 +37,7 @@
 			"title": "Codecademy",
 			"desc": "Learn C++ — a versatile programming language that’s important for developing software, games, databases, and more.",
 			"url": "https://www.codecademy.com/learn/learn-c-plus-plus/",
-			"tags": ["📚 beginner", "🏆 digiproved"]
+			"tags": ["📚 beginner"]
 		}
 	]
 }

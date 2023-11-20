@@ -42,6 +42,18 @@
 			"tags": ["🏆 digiproved", "📚 beginner"]
 		},
 		{
+			"title": "W3Schools - Online Web Tutorials",
+			"desc": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.",
+			"url": "https://www.w3schools.com/",
+			"tags": ["📚 beginner", "📄 documentatie"]
+		},
+		{
+			"title": "OPENCLASSROOMS - Online programs and free-access courses",
+			"desc": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.",
+			"url": "https://openclassrooms.com/en/search?language=en&query=html",
+			"tags": ["📚 beginner", "📺 video"]
+		},
+		{
 			"title": "Markup validator",
 			"desc": "This tool is checking your markup if it complies with the specification and will show you possible errors.",
 			"url": "https://validator.w3.org/nu/",
