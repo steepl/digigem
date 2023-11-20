@@ -106,7 +106,8 @@ h1 {
 
 .cards {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+	grid-template-columns: repeat(auto-fit, 18rem);
+	grid-auto-rows: 18rem;
 	grid-gap: 1rem;
 }
 
@@ -155,5 +156,11 @@ h1 {
 
 	hr {
 		display: none;
+	}
+}
+
+@media (max-width: 1036px) {
+	.cards {
+		grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
 	}
 }
