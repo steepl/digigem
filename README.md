@@ -6,6 +6,8 @@
 
 Digigem is a Dutch fork of [webgems](https://github.com/lostdesign/webgems), which serves as a knowledge base for Digibende Utrecht. It contains a wealth of information and tutorials on various topics.
 
+![](/.github/static/GIF.gif)
+
 ## Built With
 
 - [Nuxt.js 2](https://nuxtjs.org)
