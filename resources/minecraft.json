@@ -7,7 +7,8 @@
 		"📚 Beginner",
 		"🎓 Gevorderd",
 		"🚧 Mods",
-		"🛠️ Tools"
+		"🛠️ Tools",
+		"🤖 MCreator"
 	],
 	"resources": [
 		{
@@ -38,7 +39,13 @@
 			"title": "Spigot Plugin Development",
 			"desc": "The best Spigot plugin development tutorials on the internet.",
 			"url": "https://www.youtube.com/playlist?list=PLfu_Bpi_zcDNEKmR82hnbv9UxQ16nUBF7",
-			"tags": ["📚 beginner", "🏆 digiproved", "🎓 gevorderd", "🚧 mods"]
+			"tags": ["🏆 digiproved", "🎓 gevorderd", "🚧 mods"]
+		},
+		{
+			"title": "NorthWestTrees MCreator",
+			"desc": "Formally known as NorthWestTrees Gaming, the channel grew around MCreator mod-making so I decided to make this the official MCreator tutorial and content channel.",
+			"url": "https://www.youtube.com/@NorthWestTreesMCreator/playlists",
+			"tags": ["🏆 digiproved", "🤖 mcreator", "📚 beginner", "🚧 mods"]
 		},
 		{
 			"title": "Fabric",
@@ -80,7 +87,7 @@
 			"title": "MCreator",
 			"desc": "MCreator is open source software used to make Minecraft Java Edition mods, Bedrock Edition Add-Ons, and data packs using an intuitive easy-to-learn interface or with an integrated code editor.",
 			"url": "https://mcreator.net/",
-			"tags": ["🛠️ tools", "🚧 mods"]
+			"tags": ["🤖 mcreator", "📚 beginner", "🛠️ tools", "🚧 mods"]
 		},
 		{
 			"title": "Nova Skin",
